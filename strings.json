@@ -1,0 +1,181 @@
+{
+  "common": {
+    "account_locked_error": "The account is locked. Please follow the instructions in the manufacturer's app to unlock it"
+  },
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure your Whirlpool account",
+        "data": {
+          "username": "[%key:common::config_flow::data::username%]",
+          "password": "[%key:common::config_flow::data::password%]",
+          "region": "Region",
+          "brand": "Brand"
+        },
+        "data_description": {
+          "username": "The username or email address you use to log in to the Whirlpool/Maytag app",
+          "password": "The password you use to log in to the Whirlpool/Maytag app",
+          "region": "The region where your appliances where purchased",
+          "brand": "The brand of the mobile app you use, or the brand of the appliances in your account"
+        }
+      },
+      "reauth_confirm": {
+        "title": "[%key:common::config_flow::title::reauth%]",
+        "data": {
+          "password": "[%key:common::config_flow::data::password%]",
+          "region": "[%key:component::whirlpool::config::step::user::data::region%]",
+          "brand": "[%key:component::whirlpool::config::step::user::data::brand%]"
+        },
+        "data_description": {
+          "password": "[%key:component::whirlpool::config::step::user::data_description::password%]",
+          "brand": "[%key:component::whirlpool::config::step::user::data_description::brand%]",
+          "region": "[%key:component::whirlpool::config::step::user::data_description::region%]"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_account%]",
+      "reauth_successful": "[%key:common::config_flow::abort::reauth_successful%]"
+    },
+    "error": {
+      "account_locked": "[%key:component::whirlpool::common::account_locked_error%]",
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "invalid_auth": "[%key:common::config_flow::error::invalid_auth%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]",
+      "no_appliances": "No supported appliances found"
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "light": {
+        "name": "Light"
+      }
+    },
+    "sensor": {
+      "washer_state": {
+        "name": "State",
+        "state": {
+          "standby": "Standby",
+          "setting": "Setting",
+          "delay_countdown": "Delay countdown",
+          "delay_paused": "Delay paused",
+          "smart_delay": "Smart delay",
+          "smart_grid_pause": "Smart delay",
+          "pause": "Paused",
+          "running_maincycle": "Running",
+          "running_postcycle": "Finishing",
+          "exception": "Exception",
+          "complete": "Complete",
+          "power_failure": "Power failure",
+          "service_diagnostic_mode": "Service diagnostic",
+          "factory_diagnostic_mode": "Factory diagnostic",
+          "life_test": "Life test",
+          "customer_focus_mode": "Customer focus",
+          "demo_mode": "Demo mode",
+          "hard_stop_or_error": "Error",
+          "system_initialize": "Initializing",
+          "cycle_filling": "Filling",
+          "cycle_rinsing": "Rinsing",
+          "cycle_sensing": "Sensing",
+          "cycle_soaking": "Soaking",
+          "cycle_spinning": "Spinning",
+          "cycle_washing": "Washing"
+        }
+      },
+      "dryer_state": {
+        "name": "State",
+        "state": {
+          "standby": "Standby",
+          "setting": "Setting",
+          "delay_countdown": "Delay countdown",
+          "delay_paused": "Delay paused",
+          "smart_delay": "Smart delay",
+          "smart_grid_pause": "Smart delay",
+          "pause": "Paused",
+          "running_maincycle": "Running",
+          "running_postcycle": "Finishing",
+          "exception": "Exception",
+          "complete": "Complete",
+          "power_failure": "Power failure",
+          "service_diagnostic_mode": "Service diagnostic",
+          "factory_diagnostic_mode": "Factory diagnostic",
+          "life_test": "Life test",
+          "customer_focus_mode": "Customer focus",
+          "demo_mode": "Demo mode",
+          "hard_stop_or_error": "Error",
+          "system_initialize": "Initializing",
+          "cancelled": "Cancelled",
+          "cycle_sensing": "Sensing"
+        }
+      },
+      "oven_state": {
+        "name": "State",
+        "state": {
+          "oven_standby": "Standby",
+          "oven_preheating": "Preheating",
+          "oven_cooking": "Cooking",
+          "oven_notpresent": "Not present"
+        }
+      },
+      "cook_mode": {
+        "name": "Cook mode",
+        "state": {
+          "cook_standby": "Standby",
+          "cook_bake": "Bake",
+          "cook_convectbake": "Convect bake",
+          "cook_broil": "Broil",
+          "cook_convectbroil": "Convect broil",
+          "cook_convectroast": "Convect roast",
+          "cook_keepwarm": "Keep warm",
+          "cook_airfry": "Air fry"
+        }
+      },
+      "microwave_state": {
+        "name": "State",
+        "state": {
+          "microwave_standby": "Standby",
+          "microwave_running": "Running",
+          "microwave_paused": "Paused",
+          "microwave_complete": "Complete"
+        }
+      },
+      "current_temp": {
+        "name": "Temperature"
+      },
+      "target_temp": {
+        "name": "Target temperature"
+      },
+      "cook_power": {
+        "name": "Power level"
+      },
+      "cycle_count": {
+        "name": "Total cycles"
+      },
+      "whirlpool_tank": {
+        "name": "Detergent level",
+        "state": {
+          "unknown": "Unknown",
+          "empty": "Empty",
+          "25": "25%",
+          "50": "50%",
+          "100": "100%",
+          "active": "Active"
+        }
+      },
+      "end_time": {
+        "name": "Time remaining"
+      }
+    }
+  },
+  "exceptions": {
+    "account_locked": {
+      "message": "[%key:component::whirlpool::common::account_locked_error%]"
+    },
+    "appliances_fetch_failed": {
+      "message": "Failed to fetch appliances"
+    },
+    "request_failed": {
+      "message": "Request failed"
+    }
+  }
+}
