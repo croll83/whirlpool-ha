@@ -1,0 +1,321 @@
+{
+    "common": {
+        "account_locked_error": "\u5e33\u865f\u5df2\u9396\u5b9a\u3002\u8acb\u53c3\u95b1\u88fd\u9020\u5546\u61c9\u7528\u7a0b\u5f0f\u4e2d\u7684\u8aaa\u660e\u9032\u884c\u89e3\u9396"
+    },
+    "config": {
+        "abort": {
+            "already_configured": "\u5e33\u865f\u5df2\u7d93\u8a2d\u5b9a\u5b8c\u6210"
+        },
+        "error": {
+            "account_locked": "\u5e33\u865f\u5df2\u9396\u5b9a\u3002\u8acb\u53c3\u95b1\u88fd\u9020\u5546\u61c9\u7528\u7a0b\u5f0f\u4e2d\u7684\u8aaa\u660e\u9032\u884c\u89e3\u9396",
+            "cannot_connect": "\u9023\u7dda\u5931\u6557",
+            "invalid_auth": "\u8eab\u4efd\u9a57\u8b49\u7121\u6548",
+            "no_appliances": "\u627e\u4e0d\u5230\u652f\u63f4\u8a2d\u5099\u3002",
+            "unknown": "\u672a\u9810\u671f\u932f\u8aa4"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "brand": "\u54c1\u724c\u540d",
+                    "password": "\u5bc6\u78bc",
+                    "region": "\u5340\u57df"
+                },
+                "data_description": {
+                    "brand": "\u8acb\u9078\u64c7\u6240\u4f7f\u7528\u7684\u624b\u6a5f\u61c9\u7528\u7a0b\u5f0f\u54c1\u724c\uff0c\u6216\u8005\u5e33\u865f\u4e2d\u7684\u5bb6\u96fb\u54c1\u724c",
+                    "password": "\u7528\u65bc\u767b\u5165 Whirlpool/Maytag \u61c9\u7528\u7a0b\u5f0f\u7684\u5bc6\u78bc",
+                    "region": "\u8cfc\u8cb7\u96fb\u5668\u7684\u5730\u5340"
+                },
+                "title": "{name} \u8a8d\u8b49\u5df2\u904e\u671f"
+            },
+            "user": {
+                "data": {
+                    "brand": "\u54c1\u724c\u540d",
+                    "password": "\u5bc6\u78bc",
+                    "region": "\u5340\u57df",
+                    "username": "\u4f7f\u7528\u8005\u540d\u7a31"
+                },
+                "data_description": {
+                    "brand": "\u8acb\u9078\u64c7\u6240\u4f7f\u7528\u7684\u624b\u6a5f\u61c9\u7528\u7a0b\u5f0f\u54c1\u724c\uff0c\u6216\u8005\u5e33\u865f\u4e2d\u7684\u5bb6\u96fb\u54c1\u724c",
+                    "password": "\u7528\u65bc\u767b\u5165 Whirlpool/Maytag \u61c9\u7528\u7a0b\u5f0f\u7684\u5bc6\u78bc",
+                    "region": "\u8cfc\u8cb7\u96fb\u5668\u7684\u5730\u5340",
+                    "username": "\u7528\u65bc\u767b\u5165 Whirlpool/Maytag \u61c9\u7528\u7a0b\u5f0f\u7684\u4f7f\u7528\u8005\u540d\u7a31\u6216\u96fb\u5b50\u90f5\u4ef6\u4f4d\u5740"
+                },
+                "title": "\u8a2d\u5b9a\u60a8\u7684 Whirlpool \u5e33\u865f"
+            }
+        }
+    },
+    "entity": {
+        "button": {
+            "oven_stop": {
+                "name": "\u505c\u6b62"
+            },
+            "oven_stop_lower": {
+                "name": "\u70e4\u7bb1\u4e0b\u5c64\u505c\u6b62"
+            },
+            "oven_stop_upper": {
+                "name": "\u70e4\u7bb1\u4e0a\u5c64\u505c\u6b62"
+            }
+        },
+        "light": {
+            "oven_light": {
+                "name": "\u71c8\u5149"
+            },
+            "oven_light_lower": {
+                "name": "\u4e0b\u5c64\u70e4\u7bb1\u71c8"
+            },
+            "oven_light_upper": {
+                "name": "\u4e0a\u5c64\u70e4\u7bb1\u71c8"
+            }
+        },
+        "number": {
+            "oven_target_temperature": {
+                "name": "\u76ee\u6a19\u6eab\u5ea6"
+            },
+            "oven_target_temperature_lower": {
+                "name": "\u70e4\u7bb1\u4e0b\u5c64\u8a2d\u5b9a\u6eab\u5ea6"
+            },
+            "oven_target_temperature_upper": {
+                "name": "\u70e4\u7bb1\u4e0a\u5c64\u8a2d\u5b9a\u6eab\u5ea6"
+            }
+        },
+        "select": {
+            "oven_cook_mode": {
+                "name": "\u70f9\u98ea\u6a21\u5f0f",
+                "state": {
+                    "air_fry": "\u6c23\u70b8\u934b",
+                    "bake": "\u70d8\u7119",
+                    "broil": "\u4e0a\u70e4",
+                    "convection_bake": "\u5c0d\u6d41\u70d8\u7119",
+                    "convection_broil": "\u5c0d\u6d41\u71d2\u70e4",
+                    "convection_roast": "\u5c0d\u6d41\u70d8\u70e4",
+                    "keep_warm": "\u4fdd\u6eab",
+                    "standby": "\u5f85\u547d"
+                }
+            },
+            "oven_cook_mode_lower": {
+                "name": "\u70e4\u7bb1\u4e0b\u5c64\u70f9\u98ea\u6a21\u5f0f",
+                "state": {
+                    "air_fry": "\u6c23\u70b8\u934b",
+                    "bake": "\u70d8\u7119",
+                    "broil": "\u4e0a\u70e4",
+                    "convection_bake": "\u5c0d\u6d41\u70d8\u7119",
+                    "convection_broil": "\u5c0d\u6d41\u71d2\u70e4",
+                    "convection_roast": "\u5c0d\u6d41\u70d8\u70e4",
+                    "keep_warm": "\u4fdd\u6eab",
+                    "standby": "\u5f85\u547d"
+                }
+            },
+            "oven_cook_mode_upper": {
+                "name": "\u70e4\u7bb1\u4e0a\u5c64\u70f9\u98ea\u6a21\u5f0f",
+                "state": {
+                    "air_fry": "\u6c23\u70b8\u934b",
+                    "bake": "\u70d8\u7119",
+                    "broil": "\u4e0a\u70e4",
+                    "convection_bake": "\u5c0d\u6d41\u70d8\u7119",
+                    "convection_broil": "\u5c0d\u6d41\u71d2\u70e4",
+                    "convection_roast": "\u5c0d\u6d41\u70d8\u70e4",
+                    "keep_warm": "\u4fdd\u6eab",
+                    "standby": "\u5f85\u547d"
+                }
+            },
+            "refrigerator_temperature_level": {
+                "name": "\u6eab\u5ea6\u7b49\u7d1a"
+            }
+        },
+        "sensor": {
+            "dryer_state": {
+                "name": "\u72c0\u614b",
+                "state": {
+                    "complete": "\u5b8c\u6210",
+                    "customer_focus_mode": "\u7528\u6236\u5c08\u6ce8\u6a21\u5f0f",
+                    "cycle_filling": "\u5faa\u74b0\u586b\u5145",
+                    "cycle_rinsing": "\u5faa\u74b0\u6c96\u6d17",
+                    "cycle_sensing": "\u5faa\u74b0\u611f\u61c9",
+                    "cycle_soaking": "\u5faa\u74b0\u6d78\u6ce1",
+                    "cycle_spinning": "\u5faa\u74b0\u812b\u6c34",
+                    "cycle_washing": "\u5faa\u74b0\u6e05\u6d17",
+                    "delay_countdown": "\u5ef6\u9072\u5012\u6578",
+                    "delay_paused": "\u5ef6\u9072\u66ab\u505c",
+                    "demo_mode": "\u5c55\u793a\u6a21\u5f0f",
+                    "exception": "\u4f8b\u5916",
+                    "factory_diagnostic_mode": "\u5de5\u5ee0\u8a3a\u65b7\u6a21\u5f0f",
+                    "hard_stop_or_error": "\u9000\u51fa\u6216\u932f\u8aa4",
+                    "life_test": "\u58fd\u547d\u6e2c\u8a66",
+                    "pause": "\u5df2\u66ab\u505c",
+                    "power_failure": "\u96fb\u529b\u6545\u969c",
+                    "running_maincycle": "\u57f7\u884c\u4e3b\u5faa\u74b0",
+                    "running_postcycle": "\u57f7\u884c\u5f8c\u5faa\u74b0",
+                    "service_diagnostic_mode": "\u670d\u52d9\u8a3a\u65b7\u6a21\u5f0f",
+                    "setting": "\u8a2d\u5b9a",
+                    "smart_delay": "\u667a\u80fd\u5ef6\u9072",
+                    "smart_grid_pause": "\u667a\u80fd\u5ef6\u9072",
+                    "standby": "\u5f85\u547d",
+                    "system_initialize": "\u7cfb\u7d71\u521d\u59cb\u5316"
+                }
+            },
+            "end_time": {
+                "name": "\u7d50\u675f\u6642\u9593"
+            },
+            "oven_cook_mode": {
+                "name": "\u70f9\u98ea\u6a21\u5f0f",
+                "state": {
+                    "air_fry": "\u6c23\u70b8\u934b",
+                    "bake": "\u70d8\u7119",
+                    "broil": "\u4e0a\u70e4",
+                    "convection_bake": "\u5c0d\u6d41\u70d8\u7119",
+                    "convection_broil": "\u5c0d\u6d41\u71d2\u70e4",
+                    "convection_roast": "\u5c0d\u6d41\u70d8\u70e4",
+                    "keep_warm": "\u4fdd\u6eab",
+                    "standby": "\u5f85\u547d"
+                }
+            },
+            "oven_cook_mode_lower": {
+                "name": "\u70e4\u7bb1\u4e0b\u5c64\u70f9\u98ea\u6a21\u5f0f",
+                "state": {
+                    "air_fry": "\u6c23\u70b8\u934b",
+                    "bake": "\u70d8\u7119",
+                    "broil": "\u4e0a\u70e4",
+                    "convection_bake": "\u5c0d\u6d41\u70d8\u7119",
+                    "convection_broil": "\u5c0d\u6d41\u71d2\u70e4",
+                    "convection_roast": "\u5c0d\u6d41\u70d8\u70e4",
+                    "keep_warm": "\u4fdd\u6eab",
+                    "standby": "\u5f85\u547d"
+                }
+            },
+            "oven_cook_mode_upper": {
+                "name": "\u70e4\u7bb1\u4e0a\u5c64\u70f9\u98ea\u6a21\u5f0f",
+                "state": {
+                    "air_fry": "\u6c23\u70b8\u934b",
+                    "bake": "\u70d8\u7119",
+                    "broil": "\u4e0a\u70e4",
+                    "convection_bake": "\u5c0d\u6d41\u70d8\u7119",
+                    "convection_broil": "\u5c0d\u6d41\u71d2\u70e4",
+                    "convection_roast": "\u5c0d\u6d41\u70d8\u70e4",
+                    "keep_warm": "\u4fdd\u6eab",
+                    "standby": "\u5f85\u547d"
+                }
+            },
+            "oven_current_temperature": {
+                "name": "\u76ee\u524d\u6eab\u5ea6"
+            },
+            "oven_current_temperature_lower": {
+                "name": "\u70e4\u7bb1\u4e0b\u5c64\u76ee\u524d\u6eab\u5ea6"
+            },
+            "oven_current_temperature_upper": {
+                "name": "\u70e4\u7bb1\u4e0a\u5c64\u76ee\u524d\u6eab\u5ea6"
+            },
+            "oven_state": {
+                "name": "\u72c0\u614b",
+                "state": {
+                    "cooking": "\u70f9\u996a\u4e2d",
+                    "preheating": "\u9810\u71b1\u4e2d",
+                    "standby": "\u5f85\u547d"
+                }
+            },
+            "oven_state_lower": {
+                "name": "\u70e4\u7bb1\u4e0b\u5c64\u72c0\u614b",
+                "state": {
+                    "cooking": "\u70f9\u996a\u4e2d",
+                    "preheating": "\u9810\u71b1\u4e2d",
+                    "standby": "\u5f85\u547d"
+                }
+            },
+            "oven_state_upper": {
+                "name": "\u70e4\u7bb1\u4e0a\u5c64\u72c0\u614b",
+                "state": {
+                    "cooking": "\u70f9\u996a\u4e2d",
+                    "preheating": "\u9810\u71b1\u4e2d",
+                    "standby": "\u5f85\u547d"
+                }
+            },
+            "oven_target_temperature": {
+                "name": "\u8a2d\u5b9a\u6eab\u5ea6"
+            },
+            "oven_target_temperature_lower": {
+                "name": "\u70e4\u7bb1\u4e0b\u5c64\u8a2d\u5b9a\u6eab\u5ea6"
+            },
+            "oven_target_temperature_upper": {
+                "name": "\u70e4\u7bb1\u4e0a\u5c64\u8a2d\u5b9a\u6eab\u5ea6"
+            },
+            "washer_state": {
+                "name": "\u72c0\u614b",
+                "state": {
+                    "complete": "\u5b8c\u6210",
+                    "customer_focus_mode": "\u7528\u6236\u5c08\u6ce8\u6a21\u5f0f",
+                    "cycle_filling": "\u5faa\u74b0\u586b\u5145",
+                    "cycle_rinsing": "\u5faa\u74b0\u6c96\u6d17",
+                    "cycle_sensing": "\u5faa\u74b0\u611f\u61c9",
+                    "cycle_soaking": "\u5faa\u74b0\u6d78\u6ce1",
+                    "cycle_spinning": "\u5faa\u74b0\u812b\u6c34",
+                    "cycle_washing": "\u5faa\u74b0\u6e05\u6d17",
+                    "delay_countdown": "\u5ef6\u9072\u5012\u6578",
+                    "delay_paused": "\u5ef6\u9072\u66ab\u505c",
+                    "demo_mode": "\u5c55\u793a\u6a21\u5f0f",
+                    "exception": "\u4f8b\u5916",
+                    "factory_diagnostic_mode": "\u5de5\u5ee0\u8a3a\u65b7\u6a21\u5f0f",
+                    "hard_stop_or_error": "\u9000\u51fa\u6216\u932f\u8aa4",
+                    "life_test": "\u58fd\u547d\u6e2c\u8a66",
+                    "pause": "\u5df2\u66ab\u505c",
+                    "power_failure": "\u96fb\u529b\u6545\u969c",
+                    "running_maincycle": "\u57f7\u884c\u4e3b\u5faa\u74b0",
+                    "running_postcycle": "\u57f7\u884c\u5f8c\u5faa\u74b0",
+                    "service_diagnostic_mode": "\u670d\u52d9\u8a3a\u65b7\u6a21\u5f0f",
+                    "setting": "\u8a2d\u5b9a",
+                    "smart_delay": "\u667a\u80fd\u5ef6\u9072",
+                    "smart_grid_pause": "\u667a\u80fd\u5ef6\u9072",
+                    "standby": "\u5f85\u547d",
+                    "system_initialize": "\u7cfb\u7d71\u521d\u59cb\u5316"
+                }
+            },
+            "whirlpool_tank": {
+                "name": "\u6d17\u8863\u7cbe\u7528\u91cf",
+                "state": {
+                    "100": "100%",
+                    "25": "25%",
+                    "50": "50%",
+                    "active": "\u555f\u7528",
+                    "empty": "\u8017\u76e1",
+                    "unknown": "\u672a\u77e5"
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "account_locked": {
+            "message": "\u5e33\u865f\u5df2\u9396\u5b9a\u3002\u8acb\u53c3\u95b1\u88fd\u9020\u5546\u61c9\u7528\u7a0b\u5f0f\u4e2d\u7684\u8aaa\u660e\u9032\u884c\u89e3\u9396"
+        },
+        "appliances_fetch_failed": {
+            "message": "\u53d6\u5f97\u8a2d\u5099\u5931\u6557"
+        },
+        "cannot_connect": {
+            "message": "\u9023\u7dda\u5931\u6557"
+        },
+        "invalid_auth": {
+            "message": "\u8eab\u4efd\u9a57\u8b49\u7121\u6548"
+        },
+        "invalid_value_set": {
+            "message": "\u63d0\u4f9b\u6578\u503c\u7121\u6548"
+        },
+        "request_failed": {
+            "message": "\u8acb\u6c42\u5931\u6557"
+        }
+    },
+    "issues": {
+        "deprecated_oven_cook_mode": {
+            "description": "\u300c{entity_id}\u300d\uff08{entity_name}\uff09\u611f\u6e2c\u5668\u5df2\u4e0d\u518d\u4f7f\u7528\uff0c\u56e0\u6539\u4ee5 **Cook mode** \u9078\u64c7\u5be6\u9ad4\u53d6\u4ee3\uff0c\u6b64\u5be6\u9ad4\u53ef\u540c\u6642\u8b80\u53d6\u548c\u8b8a\u66f4\u70e4\u7bb1\u7684\u70f9\u98ea\u6a21\u5f0f\u3002\n\n\u8acb\u66f4\u65b0\u6240\u6709\u5100\u8868\u677f\u3001\u6a21\u677f\u3001\u81ea\u52d5\u5316\u6216\u8173\u672c\u4ee5\u4f7f\u7528\u65b0\u7684\u9078\u64c7\u5be6\u9ad4\uff0c\u7136\u5f8c\u505c\u7528`{entity_id}`\u4ee5\u5c07\u5176\u79fb\u9664\u3002",
+            "title": "Whirlpool \u70e4\u7bb1\u70f9\u98ea\u6a21\u5f0f\u611f\u6e2c\u5668\u5df2\u4e0d\u518d\u4f7f\u7528"
+        },
+        "deprecated_oven_cook_mode_scripts": {
+            "description": "\u300c{entity_id}\u300d\uff08{entity_name}\uff09\u611f\u6e2c\u5668\u5df2\u4e0d\u518d\u4f7f\u7528\uff0c\u56e0\u6539\u4ee5\u70f9\u98ea\u6a21\u5f0f **Cook mode** \u9078\u64c7\u5be6\u9ad4\u53d6\u4ee3\uff0c\u6b64\u5be6\u9ad4\u53ef\u540c\u6642\u8b80\u53d6\u548c\u66f4\u70e4\u7bb1\u7684\u70f9\u98ea\u6a21\u5f0f\u3002\n\n\u76ee\u524d\u4ecd\u7528\u5728\u4ee5\u4e0b\u81ea\u52d5\u5316\u6216\u8173\u672c\u4e2d\uff1a\n{items}\n\n\u8acb\u66f4\u65b0\u70ba\u4f7f\u7528\u65b0\u7684\u9078\u64c7\u5be6\u9ad4\uff0c\u7136\u5f8c\u505c\u7528 `{entity_id}`\uff0c\u5373\u53ef\u5c07\u5176\u79fb\u9664\u3002",
+            "title": "Whirlpool \u70e4\u7bb1\u70f9\u98ea\u6a21\u5f0f\u611f\u6e2c\u5668\u5df2\u4e0d\u518d\u4f7f\u7528"
+        },
+        "deprecated_oven_target_temperature": {
+            "description": "\u300c{entity_id}\u300d\uff08{entity_name}\uff09\u611f\u6e2c\u5668\u5df2\u4e0d\u518d\u4f7f\u7528\uff0c\u56e0\u6539\u4ee5 **\u76ee\u6a19\u6eab\u5ea6** \u6578\u5b57\u5be6\u9ad4\u53d6\u4ee3\uff0c\u6b64\u5be6\u9ad4\u53ef\u540c\u6642\u8b80\u53d6\u548c\u8b8a\u66f4\u70e4\u7bb1\u7684\u76ee\u6a19\u6eab\u5ea6\u3002\n\n\u8acb\u66f4\u65b0\u6240\u6709\u5100\u8868\u677f\u3001\u6a21\u677f\u3001\u81ea\u52d5\u5316\u6216\u8173\u672c\u4ee5\u4f7f\u7528\u65b0\u7684\u6578\u5b57\u5be6\u9ad4\uff0c\u7136\u5f8c\u505c\u7528`{entity_id}`\u4ee5\u5c07\u5176\u79fb\u9664\u3002",
+            "title": "Whirlpool \u70e4\u7bb1\u76ee\u6a19\u6eab\u5ea6\u611f\u6e2c\u5668\u5df2\u4e0d\u518d\u4f7f\u7528"
+        },
+        "deprecated_oven_target_temperature_scripts": {
+            "description": "\u300c{entity_id}\u300d\uff08{entity_name}\uff09\u611f\u6e2c\u5668\u5df2\u4e0d\u518d\u4f7f\u7528\uff0c\u56e0\u6539\u4ee5 **\u76ee\u6a19\u6eab\u5ea6** \u6578\u5b57\u5be6\u9ad4\u53d6\u4ee3\uff0c\u6b64\u5be6\u9ad4\u53ef\u540c\u6642\u8b80\u53d6\u548c\u8b8a\u66f4\u70e4\u7bb1\u7684\u76ee\u6a19\u6eab\u5ea6\u3002\n\n\u4ee5\u4e0b\u81ea\u52d5\u5316\u6216\u8173\u672c\u4ecd\u5728\u4f7f\u7528\u820a\u5be6\u9ad4\uff1a\n{items}\n\n\u8acb\u66f4\u65b0\u4f7f\u7528\u65b0\u7684\u6578\u5b57\u5be6\u9ad4\uff0c\u7136\u5f8c\u505c\u7528`{entity_id}`\u4ee5\u5c07\u5176\u79fb\u9664\u3002",
+            "title": "Whirlpool \u70e4\u7bb1\u76ee\u6a19\u6eab\u5ea6\u611f\u6e2c\u5668\u5df2\u4e0d\u518d\u4f7f\u7528"
+        }
+    }
+}

@@ -1,0 +1,321 @@
+{
+    "common": {
+        "account_locked_error": "\uacc4\uc815\uc774 \uc7a0\uacbc\uc2b5\ub2c8\ub2e4. \uacc4\uc815\uc744 \uc7a0\uae08 \ud574\uc81c\ud558\ub824\uba74 \uc81c\uc870\uc0ac \uc571\uc758 \uc548\ub0b4\ub97c \ub530\ub974\uc138\uc694."
+    },
+    "config": {
+        "abort": {
+            "already_configured": "\uacc4\uc815\uc774 \uc774\ubbf8 \uad6c\uc131\ub418\uc5c8\uc2b5\ub2c8\ub2e4"
+        },
+        "error": {
+            "account_locked": "\uacc4\uc815\uc774 \uc7a0\uacbc\uc2b5\ub2c8\ub2e4. \uacc4\uc815\uc744 \uc7a0\uae08 \ud574\uc81c\ud558\ub824\uba74 \uc81c\uc870\uc0ac \uc571\uc758 \uc548\ub0b4\ub97c \ub530\ub974\uc138\uc694.",
+            "cannot_connect": "\uc5f0\uacb0\ud558\uc9c0 \ubabb\ud588\uc2b5\ub2c8\ub2e4",
+            "invalid_auth": "\uc778\uc99d\uc774 \uc798\ubabb\ub418\uc5c8\uc2b5\ub2c8\ub2e4",
+            "no_appliances": "\uc9c0\uc6d0\ub418\ub294 \uae30\uae30\uac00 \uc5c6\uc2b5\ub2c8\ub2e4.",
+            "unknown": "\uc608\uc0c1\uce58 \ubabb\ud55c \uc624\ub958\uac00 \ubc1c\uc0dd\ud588\uc2b5\ub2c8\ub2e4"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "brand": "\uc0c1\ud45c",
+                    "password": "\ube44\ubc00\ubc88\ud638",
+                    "region": "\uc9c0\uc5ed"
+                },
+                "data_description": {
+                    "brand": "\uc0ac\uc6a9\ud558\ub294 \ubaa8\ubc14\uc77c \uc571\uc758 \ube0c\ub79c\ub4dc \ub610\ub294 \uacc4\uc815\uc5d0 \ub4f1\ub85d\ub41c \uae30\uae30\uc758 \ube0c\ub79c\ub4dc",
+                    "password": "\uc6d4\ud480/\uba54\uc774\ud0dc\uadf8 \uc571\uc5d0 \ub85c\uadf8\uc778\ud560 \ub54c \uc0ac\uc6a9\ud558\ub294 \ube44\ubc00\ubc88\ud638\uc785\ub2c8\ub2e4.",
+                    "region": "\uac00\uc804\uc81c\ud488\uc744 \uad6c\ub9e4\ud558\uc2e0 \uc9c0\uc5ed"
+                },
+                "title": "{name}\uc758 \uc778\uc99d\uc774 \ub9cc\ub8cc\ub418\uc5c8\uc2b5\ub2c8\ub2e4"
+            },
+            "user": {
+                "data": {
+                    "brand": "\uc0c1\ud45c",
+                    "password": "\ube44\ubc00\ubc88\ud638",
+                    "region": "\uc9c0\uc5ed",
+                    "username": "\uc0ac\uc6a9\uc790 \uc774\ub984"
+                },
+                "data_description": {
+                    "brand": "\uc0ac\uc6a9\ud558\ub294 \ubaa8\ubc14\uc77c \uc571\uc758 \ube0c\ub79c\ub4dc \ub610\ub294 \uacc4\uc815\uc5d0 \ub4f1\ub85d\ub41c \uae30\uae30\uc758 \ube0c\ub79c\ub4dc",
+                    "password": "\uc6d4\ud480/\uba54\uc774\ud0dc\uadf8 \uc571\uc5d0 \ub85c\uadf8\uc778\ud560 \ub54c \uc0ac\uc6a9\ud558\ub294 \ube44\ubc00\ubc88\ud638\uc785\ub2c8\ub2e4.",
+                    "region": "\uac00\uc804\uc81c\ud488\uc744 \uad6c\ub9e4\ud558\uc2e0 \uc9c0\uc5ed",
+                    "username": "\uc6d4\ud480/\uba54\uc774\ud0dc\uadf8 \uc571\uc5d0 \ub85c\uadf8\uc778\ud560 \ub54c \uc0ac\uc6a9\ud558\ub294 \uc0ac\uc6a9\uc790 \uc774\ub984 \ub610\ub294 \uc774\uba54\uc77c \uc8fc\uc18c"
+                },
+                "title": "Whirlpool \uacc4\uc815\uc744 \uc124\uc815\ud558\uc138\uc694"
+            }
+        }
+    },
+    "entity": {
+        "button": {
+            "oven_stop": {
+                "name": "\uc911\uc9c0"
+            },
+            "oven_stop_lower": {
+                "name": "\ud558\ub2e8 \uc624\ube10 \uc911\uc9c0"
+            },
+            "oven_stop_upper": {
+                "name": "\uc0c1\ub2e8 \uc624\ube10 \uc911\uc9c0"
+            }
+        },
+        "light": {
+            "oven_light": {
+                "name": "\uc870\uba85"
+            },
+            "oven_light_lower": {
+                "name": "\ud558\ub2e8 \uc624\ube10 \uc870\uba85"
+            },
+            "oven_light_upper": {
+                "name": "\uc0c1\ub2e8 \uc624\ube10 \uc870\uba85"
+            }
+        },
+        "number": {
+            "oven_target_temperature": {
+                "name": "\ubaa9\ud45c \uc628\ub3c4"
+            },
+            "oven_target_temperature_lower": {
+                "name": "\ud558\ub2e8 \uc624\ube10 \ubaa9\ud45c \uc628\ub3c4"
+            },
+            "oven_target_temperature_upper": {
+                "name": "\uc0c1\ub2e8 \uc624\ube10 \ubaa9\ud45c \uc628\ub3c4"
+            }
+        },
+        "select": {
+            "oven_cook_mode": {
+                "name": "\uc870\ub9ac \ubaa8\ub4dc",
+                "state": {
+                    "air_fry": "\uc5d0\uc5b4\ud504\ub77c\uc774",
+                    "bake": "\ubca0\uc774\ud06c",
+                    "broil": "\ube0c\ub85c\uc77c",
+                    "convection_bake": "\ucee8\ubca1\uc158 \ubca0\uc774\ud06c",
+                    "convection_broil": "\ucee8\ubca1\uc158 \ube0c\ub85c\uc77c",
+                    "convection_roast": "\ucee8\ubca1\uc158 \ub85c\uc2a4\ud2b8",
+                    "keep_warm": "\ubcf4\uc628",
+                    "standby": "\ub300\uae30 \uc911"
+                }
+            },
+            "oven_cook_mode_lower": {
+                "name": "\ud558\ub2e8 \uc624\ube10 \uc870\ub9ac \ubaa8\ub4dc",
+                "state": {
+                    "air_fry": "\uc5d0\uc5b4\ud504\ub77c\uc774",
+                    "bake": "\ubca0\uc774\ud06c",
+                    "broil": "\ube0c\ub85c\uc77c",
+                    "convection_bake": "\ucee8\ubca1\uc158 \ubca0\uc774\ud06c",
+                    "convection_broil": "\ucee8\ubca1\uc158 \ube0c\ub85c\uc77c",
+                    "convection_roast": "\ucee8\ubca1\uc158 \ub85c\uc2a4\ud2b8",
+                    "keep_warm": "\ubcf4\uc628",
+                    "standby": "\ub300\uae30 \uc911"
+                }
+            },
+            "oven_cook_mode_upper": {
+                "name": "\uc0c1\ub2e8 \uc624\ube10 \uc870\ub9ac \ubaa8\ub4dc",
+                "state": {
+                    "air_fry": "\uc5d0\uc5b4\ud504\ub77c\uc774",
+                    "bake": "\ubca0\uc774\ud06c",
+                    "broil": "\ube0c\ub85c\uc77c",
+                    "convection_bake": "\ucee8\ubca1\uc158 \ubca0\uc774\ud06c",
+                    "convection_broil": "\ucee8\ubca1\uc158 \ube0c\ub85c\uc77c",
+                    "convection_roast": "\ucee8\ubca1\uc158 \ub85c\uc2a4\ud2b8",
+                    "keep_warm": "\ubcf4\uc628",
+                    "standby": "\ub300\uae30 \uc911"
+                }
+            },
+            "refrigerator_temperature_level": {
+                "name": "\uc628\ub3c4 \uc218\uc900"
+            }
+        },
+        "sensor": {
+            "dryer_state": {
+                "name": "\uc0c1\ud0dc",
+                "state": {
+                    "complete": "\uc644\ubcbd\ud55c",
+                    "customer_focus_mode": "\uace0\uac1d \uc911\uc2ec \ubaa8\ub4dc",
+                    "cycle_filling": "\uc0ac\uc774\ud074 \ucda9\uc804",
+                    "cycle_rinsing": "\uc0ac\uc774\ud074 \ud5f9\uad7c",
+                    "cycle_sensing": "\uc0ac\uc774\ud074 \uac10\uc9c0",
+                    "cycle_soaking": "\uc0ac\uc774\ud074 \uce68\uc9c0",
+                    "cycle_spinning": "\uc0ac\uc774\ud074 \ubc29\uc801",
+                    "cycle_washing": "\uc138\ud0c1",
+                    "delay_countdown": "\uc9c0\uc5f0 \uce74\uc6b4\ud2b8\ub2e4\uc6b4",
+                    "delay_paused": "\uc9c0\uc5f0 \uc77c\uc2dc \uc911\uc9c0\ub428",
+                    "demo_mode": "\ub370\ubaa8 \ubaa8\ub4dc",
+                    "exception": "\uc608\uc678",
+                    "factory_diagnostic_mode": "\uacf5\uc7a5 \uc9c4\ub2e8 \ubaa8\ub4dc",
+                    "hard_stop_or_error": "\uac15\uc81c \uc815\uc9c0 \ub610\ub294 \uc624\ub958",
+                    "life_test": "\uc0dd\uba85 \ud14c\uc2a4\ud2b8",
+                    "pause": "\uc77c\uc2dc\uc911\uc9c0",
+                    "power_failure": "\uc815\uc804",
+                    "running_maincycle": "\uba54\uc778\uc0ac\uc774\ud074 \uc2e4\ud589 \uc911",
+                    "running_postcycle": "\uc0ac\uc774\ud074 \ud6c4 \ub7ec\ub2dd",
+                    "service_diagnostic_mode": "\uc11c\ube44\uc2a4 \uc9c4\ub2e8 \ubaa8\ub4dc",
+                    "setting": "\ud658\uacbd",
+                    "smart_delay": "\uc2a4\ub9c8\ud2b8 \ub51c\ub808\uc774",
+                    "smart_grid_pause": "\uc2a4\ub9c8\ud2b8 \ub51c\ub808\uc774",
+                    "standby": "\ub300\uae30 \uc911",
+                    "system_initialize": "\uc2dc\uc2a4\ud15c \ucd08\uae30\ud654"
+                }
+            },
+            "end_time": {
+                "name": "\uc885\ub8cc \uc2dc\uac04"
+            },
+            "oven_cook_mode": {
+                "name": "\uc870\ub9ac \ubaa8\ub4dc",
+                "state": {
+                    "air_fry": "\uc5d0\uc5b4\ud504\ub77c\uc774\uc5b4",
+                    "bake": "\ube75 \uad7d\uae30",
+                    "broil": "\uad7d\ub2e4",
+                    "convection_bake": "\ub300\ub958\uc2dd \ubca0\uc774\ud0b9",
+                    "convection_broil": "\ub300\ub958\uc2dd \uadf8\ub9b4",
+                    "convection_roast": "\ub300\ub958\uc2dd \ub85c\uc2a4\ud305",
+                    "keep_warm": "\ub530\ub73b\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694",
+                    "standby": "\ub300\uae30 \uc911"
+                }
+            },
+            "oven_cook_mode_lower": {
+                "name": "\uc624\ube10 \uc870\ub9ac \ubaa8\ub4dc \ub0ae\ucda4",
+                "state": {
+                    "air_fry": "\uc5d0\uc5b4\ud504\ub77c\uc774\uc5b4",
+                    "bake": "\ube75 \uad7d\uae30",
+                    "broil": "\uad7d\ub2e4",
+                    "convection_bake": "\ub300\ub958\uc2dd \ubca0\uc774\ud0b9",
+                    "convection_broil": "\ub300\ub958\uc2dd \uadf8\ub9b4",
+                    "convection_roast": "\ub300\ub958\uc2dd \ub85c\uc2a4\ud305",
+                    "keep_warm": "\ub530\ub73b\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694",
+                    "standby": "\ub300\uae30 \uc911"
+                }
+            },
+            "oven_cook_mode_upper": {
+                "name": "\uc0c1\ub2e8 \uc624\ube10 \uc870\ub9ac \ubaa8\ub4dc",
+                "state": {
+                    "air_fry": "\uc5d0\uc5b4\ud504\ub77c\uc774\uc5b4",
+                    "bake": "\ube75 \uad7d\uae30",
+                    "broil": "\uad7d\ub2e4",
+                    "convection_bake": "\ub300\ub958\uc2dd \ubca0\uc774\ud0b9",
+                    "convection_broil": "\ub300\ub958\uc2dd \uadf8\ub9b4",
+                    "convection_roast": "\ub300\ub958\uc2dd \ub85c\uc2a4\ud305",
+                    "keep_warm": "\ub530\ub73b\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694",
+                    "standby": "\ub300\uae30 \uc911"
+                }
+            },
+            "oven_current_temperature": {
+                "name": "\ud604\uc7ac \uc628\ub3c4"
+            },
+            "oven_current_temperature_lower": {
+                "name": "\uc624\ube10\uc758 \ud604\uc7ac \uc628\ub3c4\ub97c \ub0ae\ucd94\uc138\uc694"
+            },
+            "oven_current_temperature_upper": {
+                "name": "\uc0c1\ub2e8 \uc624\ube10 \ud604\uc7ac \uc628\ub3c4"
+            },
+            "oven_state": {
+                "name": "\uc0c1\ud0dc",
+                "state": {
+                    "cooking": "\uc694\ub9ac",
+                    "preheating": "\uc608\uc5f4",
+                    "standby": "\ub300\uae30 \uc911"
+                }
+            },
+            "oven_state_lower": {
+                "name": "\uc624\ube10 \uc0c1\ud0dc \ub0ae\ucda4",
+                "state": {
+                    "cooking": "\uc694\ub9ac",
+                    "preheating": "\uc608\uc5f4",
+                    "standby": "\ub300\uae30 \uc911"
+                }
+            },
+            "oven_state_upper": {
+                "name": "\uc0c1\ub2e8 \uc624\ube10 \uc0c1\ud0dc",
+                "state": {
+                    "cooking": "\uc694\ub9ac",
+                    "preheating": "\uc608\uc5f4",
+                    "standby": "\ub300\uae30 \uc911"
+                }
+            },
+            "oven_target_temperature": {
+                "name": "\ubaa9\ud45c \uc628\ub3c4"
+            },
+            "oven_target_temperature_lower": {
+                "name": "\uc624\ube10 \ubaa9\ud45c \uc628\ub3c4\ub97c \ub0ae\ucd94\uc138\uc694"
+            },
+            "oven_target_temperature_upper": {
+                "name": "\uc0c1\ub2e8 \uc624\ube10 \ubaa9\ud45c \uc628\ub3c4"
+            },
+            "washer_state": {
+                "name": "\uc0c1\ud0dc",
+                "state": {
+                    "complete": "\uc644\ubcbd\ud55c",
+                    "customer_focus_mode": "\uace0\uac1d \uc911\uc2ec \ubaa8\ub4dc",
+                    "cycle_filling": "\uc0ac\uc774\ud074 \ucda9\uc804",
+                    "cycle_rinsing": "\uc0ac\uc774\ud074 \ud5f9\uad7c",
+                    "cycle_sensing": "\uc0ac\uc774\ud074 \uac10\uc9c0",
+                    "cycle_soaking": "\uc0ac\uc774\ud074 \uce68\uc9c0",
+                    "cycle_spinning": "\uc0ac\uc774\ud074 \ubc29\uc801",
+                    "cycle_washing": "\uc138\ud0c1",
+                    "delay_countdown": "\uc9c0\uc5f0 \uce74\uc6b4\ud2b8\ub2e4\uc6b4",
+                    "delay_paused": "\uc9c0\uc5f0 \uc77c\uc2dc \uc911\uc9c0\ub428",
+                    "demo_mode": "\ub370\ubaa8 \ubaa8\ub4dc",
+                    "exception": "\uc608\uc678",
+                    "factory_diagnostic_mode": "\uacf5\uc7a5 \uc9c4\ub2e8 \ubaa8\ub4dc",
+                    "hard_stop_or_error": "\uac15\uc81c \uc815\uc9c0 \ub610\ub294 \uc624\ub958",
+                    "life_test": "\uc0dd\uba85 \ud14c\uc2a4\ud2b8",
+                    "pause": "\uc77c\uc2dc\uc911\uc9c0",
+                    "power_failure": "\uc815\uc804",
+                    "running_maincycle": "\uba54\uc778\uc0ac\uc774\ud074 \uc2e4\ud589 \uc911",
+                    "running_postcycle": "\uc0ac\uc774\ud074 \ud6c4 \ub7ec\ub2dd",
+                    "service_diagnostic_mode": "\uc11c\ube44\uc2a4 \uc9c4\ub2e8 \ubaa8\ub4dc",
+                    "setting": "\ud658\uacbd",
+                    "smart_delay": "\uc2a4\ub9c8\ud2b8 \ub51c\ub808\uc774",
+                    "smart_grid_pause": "\uc2a4\ub9c8\ud2b8 \ub51c\ub808\uc774",
+                    "standby": "\ub300\uae30 \uc911",
+                    "system_initialize": "\uc2dc\uc2a4\ud15c \ucd08\uae30\ud654"
+                }
+            },
+            "whirlpool_tank": {
+                "name": "\uc138\uc81c \ub808\ubca8",
+                "state": {
+                    "100": "100%",
+                    "25": "25%",
+                    "50": "50%",
+                    "active": "\ud65c\uc131",
+                    "empty": "\ube44\uc5b4 \uc788\uc74c",
+                    "unknown": "\uc54c \uc218 \uc5c6\uc74c"
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "account_locked": {
+            "message": "\uacc4\uc815\uc774 \uc7a0\uacbc\uc2b5\ub2c8\ub2e4. \uacc4\uc815\uc744 \uc7a0\uae08 \ud574\uc81c\ud558\ub824\uba74 \uc81c\uc870\uc0ac \uc571\uc758 \uc548\ub0b4\ub97c \ub530\ub974\uc138\uc694."
+        },
+        "appliances_fetch_failed": {
+            "message": "\uac00\uc804\uc81c\ud488\uc744 \uac00\uc838\uc624\ub294 \ub370 \uc2e4\ud328\ud588\uc2b5\ub2c8\ub2e4."
+        },
+        "cannot_connect": {
+            "message": "\uc5f0\uacb0\ud558\uc9c0 \ubabb\ud588\uc2b5\ub2c8\ub2e4"
+        },
+        "invalid_auth": {
+            "message": "\uc778\uc99d\uc774 \uc798\ubabb\ub418\uc5c8\uc2b5\ub2c8\ub2e4"
+        },
+        "invalid_value_set": {
+            "message": "\uc798\ubabb\ub41c \uac12\uc774 \uc81c\uacf5\ub418\uc5c8\uc2b5\ub2c8\ub2e4."
+        },
+        "request_failed": {
+            "message": "\uc694\uccad \uc2e4\ud328"
+        }
+    },
+    "issues": {
+        "deprecated_oven_cook_mode": {
+            "description": "`{entity_id}`({entity_name}) \uc13c\uc11c\ub294 \ub354 \uc774\uc0c1 \uc0ac\uc6a9\ub418\uc9c0 \uc54a\uc73c\uba70, \uc624\ube10 \uc870\ub9ac \ubaa8\ub4dc\ub97c \uc77d\uace0 \ubcc0\uacbd\ud560 \uc218 \uc788\ub294 **\uc870\ub9ac \ubaa8\ub4dc** \uc120\ud0dd \uc5d4\ud2f0\ud2f0\ub85c \ub300\uccb4\ub418\uc5c8\uc2b5\ub2c8\ub2e4.\n\n\uc0c8 \uc120\ud0dd \uc5d4\ud2f0\ud2f0\ub97c \uc0ac\uc6a9\ud558\ub3c4\ub85d \ub300\uc2dc\ubcf4\ub4dc, \ud15c\ud50c\ub9bf, \uc790\ub3d9\ud654 \ub610\ub294 \uc2a4\ud06c\ub9bd\ud2b8\ub97c \uc5c5\ub370\uc774\ud2b8\ud55c \ub2e4\uc74c, `{entity_id}`\ub97c \ube44\ud65c\uc131\ud654\ud558\uc5ec \uc81c\uac70\ub418\ub3c4\ub85d \ud558\uc138\uc694.",
+            "title": "Whirlpool \uc624\ube10 \uc870\ub9ac \ubaa8\ub4dc \uc13c\uc11c\ub294 \ub354 \uc774\uc0c1 \uc0ac\uc6a9\ub418\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4"
+        },
+        "deprecated_oven_cook_mode_scripts": {
+            "description": "`{entity_id}`({entity_name}) \uc13c\uc11c\ub294 \ub354 \uc774\uc0c1 \uc0ac\uc6a9\ub418\uc9c0 \uc54a\uc73c\uba70, \uc624\ube10 \uc870\ub9ac \ubaa8\ub4dc\ub97c \uc77d\uace0 \ubcc0\uacbd\ud560 \uc218 \uc788\ub294 **\uc870\ub9ac \ubaa8\ub4dc** \uc120\ud0dd \uc5d4\ud2f0\ud2f0\ub85c \ub300\uccb4\ub418\uc5c8\uc2b5\ub2c8\ub2e4.\n\n\ub2e4\uc74c \uc790\ub3d9\ud654 \ub610\ub294 \uc2a4\ud06c\ub9bd\ud2b8\uc5d0\uc11c \uc544\uc9c1 \uc0ac\uc6a9 \uc911\uc785\ub2c8\ub2e4:\n{items}\n\n\uc0c8 \uc120\ud0dd \uc5d4\ud2f0\ud2f0\ub97c \uc0ac\uc6a9\ud558\ub3c4\ub85d \uc5c5\ub370\uc774\ud2b8\ud55c \ub2e4\uc74c, `{entity_id}`\ub97c \ube44\ud65c\uc131\ud654\ud558\uc5ec \uc81c\uac70\ub418\ub3c4\ub85d \ud558\uc138\uc694.",
+            "title": "Whirlpool \uc624\ube10 \uc870\ub9ac \ubaa8\ub4dc \uc13c\uc11c\ub294 \ub354 \uc774\uc0c1 \uc0ac\uc6a9\ub418\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4"
+        },
+        "deprecated_oven_target_temperature": {
+            "description": "`{entity_id}`({entity_name}) \uc13c\uc11c\ub294 \ub354 \uc774\uc0c1 \uc0ac\uc6a9\ub418\uc9c0 \uc54a\uc73c\uba70, \uc624\ube10 \ubaa9\ud45c \uc628\ub3c4\ub97c \uc77d\uace0 \ubcc0\uacbd\ud560 \uc218 \uc788\ub294 **\ubaa9\ud45c \uc628\ub3c4** \uc22b\uc790 \uc5d4\ud2f0\ud2f0\ub85c \ub300\uccb4\ub418\uc5c8\uc2b5\ub2c8\ub2e4.\n\n\uc0c8 \uc22b\uc790 \uc5d4\ud2f0\ud2f0\ub97c \uc0ac\uc6a9\ud558\ub3c4\ub85d \ub300\uc2dc\ubcf4\ub4dc, \ud15c\ud50c\ub9bf, \uc790\ub3d9\ud654 \ub610\ub294 \uc2a4\ud06c\ub9bd\ud2b8\ub97c \uc5c5\ub370\uc774\ud2b8\ud55c \ub2e4\uc74c, `{entity_id}`\ub97c \ube44\ud65c\uc131\ud654\ud558\uc5ec \uc81c\uac70\ub418\ub3c4\ub85d \ud558\uc138\uc694.",
+            "title": "Whirlpool \uc624\ube10 \ubaa9\ud45c \uc628\ub3c4 \uc13c\uc11c\ub294 \ub354 \uc774\uc0c1 \uc0ac\uc6a9\ub418\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4"
+        },
+        "deprecated_oven_target_temperature_scripts": {
+            "description": "`{entity_id}`({entity_name}) \uc13c\uc11c\ub294 \ub354 \uc774\uc0c1 \uc0ac\uc6a9\ub418\uc9c0 \uc54a\uc73c\uba70, \uc624\ube10 \ubaa9\ud45c \uc628\ub3c4\ub97c \uc77d\uace0 \ubcc0\uacbd\ud560 \uc218 \uc788\ub294 **\ubaa9\ud45c \uc628\ub3c4** \uc22b\uc790 \uc5d4\ud2f0\ud2f0\ub85c \ub300\uccb4\ub418\uc5c8\uc2b5\ub2c8\ub2e4.\n\n\ub2e4\uc74c \uc790\ub3d9\ud654 \ub610\ub294 \uc2a4\ud06c\ub9bd\ud2b8\uc5d0\uc11c \uc544\uc9c1 \uc0ac\uc6a9 \uc911\uc785\ub2c8\ub2e4:\n{items}\n\n\uc0c8 \uc22b\uc790 \uc5d4\ud2f0\ud2f0\ub97c \uc0ac\uc6a9\ud558\ub3c4\ub85d \uc5c5\ub370\uc774\ud2b8\ud55c \ub2e4\uc74c, `{entity_id}`\ub97c \ube44\ud65c\uc131\ud654\ud558\uc5ec \uc81c\uac70\ub418\ub3c4\ub85d \ud558\uc138\uc694.",
+            "title": "Whirlpool \uc624\ube10 \ubaa9\ud45c \uc628\ub3c4 \uc13c\uc11c\ub294 \ub354 \uc774\uc0c1 \uc0ac\uc6a9\ub418\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4"
+        }
+    }
+}

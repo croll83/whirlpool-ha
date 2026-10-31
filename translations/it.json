@@ -1,0 +1,172 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "L'account è già configurato"
+    },
+    "error": {
+      "cannot_connect": "Impossibile connettersi",
+      "invalid_auth": "Autenticazione non valida",
+      "no_appliances": "Non sono state trovate apparecchiature supportate",
+      "unknown": "Errore imprevisto"
+    },
+    "step": {
+      "reauth_confirm": {
+        "data": {
+          "password": "Password"
+        },
+        "data_description": {
+          "password": "La password che usi per accedere all'app Whirlpool/Maytag",
+          "region": "La regione in cui sono stati acquistati i tuoi elettrodomestici"
+        },
+        "title": "Autenticazione scaduta per {name}"
+      },
+      "user": {
+        "data": {
+          "brand": "Marca",
+          "password": "Password",
+          "region": "Regione",
+          "username": "Nome utente"
+        },
+        "data_description": {
+          "password": "La password che usi per accedere all'app Whirlpool/Maytag",
+          "region": "La regione in cui sono stati acquistati i tuoi elettrodomestici",
+          "username": "Il nome utente o l'indirizzo email che usi per accedere all'app Whirlpool/Maytag"
+        },
+        "title": "Configura il tuo account Whirlpool"
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "dryer_state": {
+        "state": {
+          "hard_stop_or_error": "Arresto forzato o errore",
+          "life_test": "Test di vita",
+          "pause": "In pausa",
+          "power_failure": "Interruzione di corrente",
+          "running_maincycle": "Esecuzione del ciclo principale",
+          "running_postcycle": "Esecuzione del postciclo",
+          "service_diagnostic_mode": "Modalità diagnostica di servizio",
+          "standby": "In attesa"
+        }
+      },
+      "end_time": {
+        "name": "Ora di fine"
+      },
+      "oven_cook_mode": {
+        "name": "Modalità di cottura",
+        "state": {
+          "standby": "In attesa"
+        }
+      },
+      "oven_cook_mode_lower": {
+        "state": {
+          "standby": "In attesa"
+        }
+      },
+      "oven_cook_mode_upper": {
+        "state": {
+          "standby": "In attesa"
+        }
+      },
+      "oven_state": {
+        "state": {
+          "standby": "In attesa"
+        }
+      },
+      "oven_state_lower": {
+        "state": {
+          "standby": "In attesa"
+        }
+      },
+      "oven_state_upper": {
+        "state": {
+          "standby": "In attesa"
+        }
+      },
+      "oven_target_temperature": {
+        "name": "Temperatura desiderata"
+      },
+      "oven_target_temperature_lower": {
+        "name": "Temperatura desiderata del forno inferiore"
+      },
+      "oven_target_temperature_upper": {
+        "name": "Temperatura desiderata del forno superiore"
+      },
+      "washer_state": {
+        "name": "Stato",
+        "state": {
+          "complete": "Completo",
+          "customer_focus_mode": "Modalità di attenzione al cliente",
+          "cycle_filling": "Ciclo di riempimento",
+          "cycle_rinsing": "Ciclo di risciacquo",
+          "cycle_sensing": "Ciclo di rilevamento",
+          "cycle_soaking": "Ciclo di ammollo",
+          "cycle_spinning": "Ciclo di centrifugazione",
+          "cycle_washing": "Ciclo di lavaggio",
+          "delay_countdown": "Conto alla rovescia del ritardo",
+          "delay_paused": "Ritardo in pausa",
+          "demo_mode": "Modalità demo",
+          "exception": "Eccezione",
+          "factory_diagnostic_mode": "Modalità diagnostica di fabbrica",
+          "hard_stop_or_error": "Arresto forzato o errore",
+          "life_test": "Test di vita",
+          "pause": "In pausa",
+          "power_failure": "Interruzione di corrente",
+          "running_maincycle": "Esecuzione del ciclo principale",
+          "running_postcycle": "Esecuzione del postciclo",
+          "service_diagnostic_mode": "Modalità diagnostica di servizio",
+          "standby": "In attesa"
+        }
+      },
+      "whirlpool_tank": {
+        "name": "Livello del detersivo",
+        "state": {
+          "100": "100%",
+          "25": "25%",
+          "50": "50%",
+          "active": "Attivo",
+          "empty": "Vuoto/a",
+          "unknown": "Sconosciuto"
+        }
+      },
+      "microwave_state": {
+        "name": "Stato",
+        "state": {
+          "idle": "Inattivo",
+          "cooking": "In cottura",
+          "paused": "In pausa",
+          "completed": "Completato",
+          "turning_off": "In spegnimento"
+        }
+      },
+      "microwave_time_remaining": {
+        "name": "Tempo rimanente"
+      },
+      "microwave_power": {
+        "name": "Potenza"
+      },
+      "microwave_temperature": {
+        "name": "Temperatura"
+      },
+      "microwave_cycle_count": {
+        "name": "Cicli totali"
+      }
+    },
+    "light": {
+      "microwave_light": {
+        "name": "Luce"
+      }
+    },
+    "button": {
+      "microwave_stop": {
+        "name": "Stop"
+      }
+    }
+  },
+  "exceptions": {
+    "request_failed": {
+      "message": "Richiesta fallita"
+    }
+  }
+}

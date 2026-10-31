@@ -3,8 +3,10 @@
 from collections.abc import Callable
 from dataclasses import dataclass
 from datetime import timedelta
+from typing import override
 
-from whirlpool.appliance import Appliance
+from .wp.appliance import Appliance
+from .wp.microwave import MicrowaveDoorStatus
 
 from homeassistant.components.binary_sensor import (
     BinarySensorDeviceClass,
@@ -23,6 +25,8 @@ SCAN_INTERVAL = timedelta(minutes=5)
 
 @dataclass(frozen=True, kw_only=True)
 class WhirlpoolBinarySensorEntityDescription(BinarySensorEntityDescription):
+    """Describes a Whirlpool binary sensor entity."""
+
     value_fn: Callable[[Appliance], bool | None]
 
 
@@ -34,32 +38,17 @@ WASHER_DRYER_SENSORS: list[WhirlpoolBinarySensorEntityDescription] = [
     )
 ]
 
-OVEN_SENSORS: list[WhirlpoolBinarySensorEntityDescription] = [
-    WhirlpoolBinarySensorEntityDescription(
-        key="door",
-        device_class=BinarySensorDeviceClass.DOOR,
-        value_fn=lambda appliance: appliance.get_door_opened(),
-    ),
-    WhirlpoolBinarySensorEntityDescription(
-        key="light",
-        translation_key="light",
-        device_class=BinarySensorDeviceClass.LIGHT,
-        value_fn=lambda appliance: appliance.get_light(),
-    ),
-]
 
 MICROWAVE_SENSORS: list[WhirlpoolBinarySensorEntityDescription] = [
     WhirlpoolBinarySensorEntityDescription(
         key="door",
         device_class=BinarySensorDeviceClass.DOOR,
-        value_fn=lambda appliance: appliance.get_door_opened(),
-    ),
-    WhirlpoolBinarySensorEntityDescription(
-        key="light",
-        translation_key="light",
-        device_class=BinarySensorDeviceClass.LIGHT,
-        value_fn=lambda appliance: appliance.get_light(),
-    ),
+        value_fn=lambda mwo: (
+            None
+            if (door := mwo.get_door_status()) is None
+            else door == MicrowaveDoorStatus.Open
+        ),
+    )
 ]
 
 
@@ -68,6 +57,7 @@ async def async_setup_entry(
     config_entry: WhirlpoolConfigEntry,
     async_add_entities: AddConfigEntryEntitiesCallback,
 ) -> None:
+    """Config flow entry for Whirlpool binary sensors."""
     appliances_manager = config_entry.runtime_data
 
     washer_binary_sensors = [
@@ -82,32 +72,28 @@ async def async_setup_entry(
         for description in WASHER_DRYER_SENSORS
     ]
 
-    oven_binary_sensors = [
-        WhirlpoolBinarySensor(oven, description)
-        for oven in appliances_manager.ovens
-        for description in OVEN_SENSORS
+    microwave_binary_sensors = [
+        WhirlpoolBinarySensor(mwo, description)
+        for mwo in appliances_manager.microwaves
+        for description in MICROWAVE_SENSORS
     ]
-
-    microwave_binary_sensors = []
-    if hasattr(appliances_manager, 'microwaves'):
-        microwave_binary_sensors = [
-            WhirlpoolBinarySensor(mwo, description)
-            for mwo in appliances_manager.microwaves
-            for description in MICROWAVE_SENSORS
-        ]
-
     async_add_entities(
-        [*washer_binary_sensors, *dryer_binary_sensors, *oven_binary_sensors, *microwave_binary_sensors]
+        [*washer_binary_sensors, *dryer_binary_sensors, *microwave_binary_sensors]
     )
 
 
 class WhirlpoolBinarySensor(WhirlpoolEntity, BinarySensorEntity):
+    """A class for the Whirlpool binary sensors."""
+
     def __init__(
         self, appliance: Appliance, description: WhirlpoolBinarySensorEntityDescription
     ) -> None:
+        """Initialize the washer sensor."""
         super().__init__(appliance, unique_id_suffix=f"-{description.key}")
         self.entity_description: WhirlpoolBinarySensorEntityDescription = description
 
     @property
+    @override
     def is_on(self) -> bool | None:
+        """Return true if the binary sensor is on."""
         return self.entity_description.value_fn(self._appliance)

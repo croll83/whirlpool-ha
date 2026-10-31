@@ -1,0 +1,321 @@
+{
+    "common": {
+        "account_locked_error": "Le compte est verrouill\u00e9. Veuillez suivre les instructions de l'application du fabricant pour le d\u00e9verrouiller"
+    },
+    "config": {
+        "abort": {
+            "already_configured": "Le compte est d\u00e9j\u00e0 configur\u00e9"
+        },
+        "error": {
+            "account_locked": "Le compte est verrouill\u00e9. Veuillez suivre les instructions de l'application du fabricant pour le d\u00e9verrouiller",
+            "cannot_connect": "\u00c9chec de la connexion",
+            "invalid_auth": "Authentification non valide",
+            "no_appliances": "Aucun appareil pris en charge trouv\u00e9",
+            "unknown": "Erreur inattendue"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "brand": "Marque",
+                    "password": "Mot de passe",
+                    "region": "R\u00e9gion"
+                },
+                "data_description": {
+                    "brand": "La marque de l'application mobile que vous utilisez, ou la marque des appareils de votre compte",
+                    "password": "Le mot de passe que vous utilisez pour vous connecter \u00e0 l'application Whirlpool/Maytag",
+                    "region": "La r\u00e9gion o\u00f9 vos appareils ont \u00e9t\u00e9 achet\u00e9s"
+                },
+                "title": "L'authentification a expir\u00e9 pour {name}"
+            },
+            "user": {
+                "data": {
+                    "brand": "Marque",
+                    "password": "Mot de passe",
+                    "region": "R\u00e9gion",
+                    "username": "Nom d'utilisateur"
+                },
+                "data_description": {
+                    "brand": "La marque de l'application mobile que vous utilisez, ou la marque des appareils de votre compte",
+                    "password": "Le mot de passe que vous utilisez pour vous connecter \u00e0 l'application Whirlpool/Maytag",
+                    "region": "La r\u00e9gion o\u00f9 vos appareils ont \u00e9t\u00e9 achet\u00e9s",
+                    "username": "Le nom d'utilisateur ou l'adresse e-mail que vous utilisez pour vous connecter \u00e0 l'application Whirlpool/Maytag"
+                },
+                "title": "Configurer votre compte Whirlpool"
+            }
+        }
+    },
+    "entity": {
+        "button": {
+            "oven_stop": {
+                "name": "Arr\u00eater"
+            },
+            "oven_stop_lower": {
+                "name": "Arr\u00eater le four inf\u00e9rieur"
+            },
+            "oven_stop_upper": {
+                "name": "Arr\u00eater le four sup\u00e9rieur"
+            }
+        },
+        "light": {
+            "oven_light": {
+                "name": "Lumi\u00e8re"
+            },
+            "oven_light_lower": {
+                "name": "Lumi\u00e8re du four inf\u00e9rieur"
+            },
+            "oven_light_upper": {
+                "name": "Lumi\u00e8re du four sup\u00e9rieur"
+            }
+        },
+        "number": {
+            "oven_target_temperature": {
+                "name": "Temp\u00e9rature cible"
+            },
+            "oven_target_temperature_lower": {
+                "name": "Temp\u00e9rature cible du four inf\u00e9rieur"
+            },
+            "oven_target_temperature_upper": {
+                "name": "Temp\u00e9rature cible du four sup\u00e9rieur"
+            }
+        },
+        "select": {
+            "oven_cook_mode": {
+                "name": "Mode de cuisson",
+                "state": {
+                    "air_fry": "Friture \u00e0 air",
+                    "bake": "Cuisson",
+                    "broil": "Gril",
+                    "convection_bake": "Cuisson par convection",
+                    "convection_broil": "Gril par convection",
+                    "convection_roast": "R\u00f4tissage par convection",
+                    "keep_warm": "Maintien au chaud",
+                    "standby": "En veille"
+                }
+            },
+            "oven_cook_mode_lower": {
+                "name": "Mode de cuisson du four inf\u00e9rieur",
+                "state": {
+                    "air_fry": "Friture \u00e0 air",
+                    "bake": "Cuisson",
+                    "broil": "Gril",
+                    "convection_bake": "Cuisson par convection",
+                    "convection_broil": "Gril par convection",
+                    "convection_roast": "R\u00f4tissage par convection",
+                    "keep_warm": "Maintien au chaud",
+                    "standby": "En veille"
+                }
+            },
+            "oven_cook_mode_upper": {
+                "name": "Mode de cuisson du four sup\u00e9rieur",
+                "state": {
+                    "air_fry": "Friture \u00e0 air",
+                    "bake": "Cuisson",
+                    "broil": "Gril",
+                    "convection_bake": "Cuisson par convection",
+                    "convection_broil": "Gril par convection",
+                    "convection_roast": "R\u00f4tissage par convection",
+                    "keep_warm": "Maintien au chaud",
+                    "standby": "En veille"
+                }
+            },
+            "refrigerator_temperature_level": {
+                "name": "Niveau de temp\u00e9rature"
+            }
+        },
+        "sensor": {
+            "dryer_state": {
+                "name": "\u00c9tat",
+                "state": {
+                    "complete": "Termin\u00e9",
+                    "customer_focus_mode": "Mode focus client",
+                    "cycle_filling": "Remplissage",
+                    "cycle_rinsing": "Rin\u00e7age",
+                    "cycle_sensing": "D\u00e9tection",
+                    "cycle_soaking": "Trempage",
+                    "cycle_spinning": "Essorage",
+                    "cycle_washing": "Lavage",
+                    "delay_countdown": "Compte \u00e0 rebours du d\u00e9lai",
+                    "delay_paused": "D\u00e9lai en pause",
+                    "demo_mode": "Mode d\u00e9mo",
+                    "exception": "Exception",
+                    "factory_diagnostic_mode": "Mode diagnostic d'usine",
+                    "hard_stop_or_error": "Arr\u00eat forc\u00e9 ou erreur",
+                    "life_test": "Test de dur\u00e9e de vie",
+                    "pause": "En pause",
+                    "power_failure": "Panne de courant",
+                    "running_maincycle": "Cycle principal en cours",
+                    "running_postcycle": "Post-cycle en cours",
+                    "service_diagnostic_mode": "Mode diagnostic de service",
+                    "setting": "Param\u00e8tre",
+                    "smart_delay": "D\u00e9lai intelligent",
+                    "smart_grid_pause": "D\u00e9lai intelligent",
+                    "standby": "En veille",
+                    "system_initialize": "Initialisation du syst\u00e8me"
+                }
+            },
+            "end_time": {
+                "name": "Heure de fin"
+            },
+            "oven_cook_mode": {
+                "name": "Mode de cuisson",
+                "state": {
+                    "air_fry": "Friture \u00e0 air",
+                    "bake": "Cuisson",
+                    "broil": "Gril",
+                    "convection_bake": "Cuisson par convection",
+                    "convection_broil": "Gril par convection",
+                    "convection_roast": "R\u00f4tissage par convection",
+                    "keep_warm": "Maintien au chaud",
+                    "standby": "En veille"
+                }
+            },
+            "oven_cook_mode_lower": {
+                "name": "Mode de cuisson du four inf\u00e9rieur",
+                "state": {
+                    "air_fry": "Friture \u00e0 air",
+                    "bake": "Cuisson",
+                    "broil": "Gril",
+                    "convection_bake": "Cuisson par convection",
+                    "convection_broil": "Gril par convection",
+                    "convection_roast": "R\u00f4tissage par convection",
+                    "keep_warm": "Maintien au chaud",
+                    "standby": "En veille"
+                }
+            },
+            "oven_cook_mode_upper": {
+                "name": "Mode de cuisson du four sup\u00e9rieur",
+                "state": {
+                    "air_fry": "Friture \u00e0 air",
+                    "bake": "Cuisson",
+                    "broil": "Gril",
+                    "convection_bake": "Cuisson par convection",
+                    "convection_broil": "Gril par convection",
+                    "convection_roast": "R\u00f4tissage par convection",
+                    "keep_warm": "Maintien au chaud",
+                    "standby": "En veille"
+                }
+            },
+            "oven_current_temperature": {
+                "name": "Temp\u00e9rature actuelle"
+            },
+            "oven_current_temperature_lower": {
+                "name": "Temp\u00e9rature actuelle du four inf\u00e9rieur"
+            },
+            "oven_current_temperature_upper": {
+                "name": "Temp\u00e9rature actuelle du four sup\u00e9rieur"
+            },
+            "oven_state": {
+                "name": "\u00c9tat",
+                "state": {
+                    "cooking": "Cuisson en cours",
+                    "preheating": "Pr\u00e9chauffage",
+                    "standby": "En veille"
+                }
+            },
+            "oven_state_lower": {
+                "name": "\u00c9tat du four inf\u00e9rieur",
+                "state": {
+                    "cooking": "Cuisson en cours",
+                    "preheating": "Pr\u00e9chauffage",
+                    "standby": "En veille"
+                }
+            },
+            "oven_state_upper": {
+                "name": "\u00c9tat du four sup\u00e9rieur",
+                "state": {
+                    "cooking": "Cuisson en cours",
+                    "preheating": "Pr\u00e9chauffage",
+                    "standby": "En veille"
+                }
+            },
+            "oven_target_temperature": {
+                "name": "Temp\u00e9rature cible"
+            },
+            "oven_target_temperature_lower": {
+                "name": "Temp\u00e9rature cible du four inf\u00e9rieur"
+            },
+            "oven_target_temperature_upper": {
+                "name": "Temp\u00e9rature cible du four sup\u00e9rieur"
+            },
+            "washer_state": {
+                "name": "\u00c9tat",
+                "state": {
+                    "complete": "Termin\u00e9",
+                    "customer_focus_mode": "Mode focus client",
+                    "cycle_filling": "Remplissage",
+                    "cycle_rinsing": "Rin\u00e7age",
+                    "cycle_sensing": "D\u00e9tection",
+                    "cycle_soaking": "Trempage",
+                    "cycle_spinning": "Essorage",
+                    "cycle_washing": "Lavage",
+                    "delay_countdown": "Compte \u00e0 rebours du d\u00e9lai",
+                    "delay_paused": "D\u00e9lai en pause",
+                    "demo_mode": "Mode d\u00e9mo",
+                    "exception": "Exception",
+                    "factory_diagnostic_mode": "Mode diagnostic d'usine",
+                    "hard_stop_or_error": "Arr\u00eat forc\u00e9 ou erreur",
+                    "life_test": "Test de dur\u00e9e de vie",
+                    "pause": "En pause",
+                    "power_failure": "Panne de courant",
+                    "running_maincycle": "Cycle principal en cours",
+                    "running_postcycle": "Post-cycle en cours",
+                    "service_diagnostic_mode": "Mode diagnostic de service",
+                    "setting": "Param\u00e8tre",
+                    "smart_delay": "D\u00e9lai intelligent",
+                    "smart_grid_pause": "D\u00e9lai intelligent",
+                    "standby": "En veille",
+                    "system_initialize": "Initialisation du syst\u00e8me"
+                }
+            },
+            "whirlpool_tank": {
+                "name": "Niveau de d\u00e9tergent",
+                "state": {
+                    "100": "100%",
+                    "25": "25%",
+                    "50": "50%",
+                    "active": "Actif",
+                    "empty": "Vide",
+                    "unknown": "Inconnu"
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "account_locked": {
+            "message": "Le compte est verrouill\u00e9. Veuillez suivre les instructions de l'application du fabricant pour le d\u00e9verrouiller"
+        },
+        "appliances_fetch_failed": {
+            "message": "\u00c9chec de la r\u00e9cup\u00e9ration des appareils"
+        },
+        "cannot_connect": {
+            "message": "\u00c9chec de la connexion"
+        },
+        "invalid_auth": {
+            "message": "Authentification non valide"
+        },
+        "invalid_value_set": {
+            "message": "Valeur fournie non valide"
+        },
+        "request_failed": {
+            "message": "\u00c9chec de la requ\u00eate"
+        }
+    },
+    "issues": {
+        "deprecated_oven_cook_mode": {
+            "description": "Le capteur `{entity_id}` ({entity_name}) est obsol\u00e8te et a \u00e9t\u00e9 remplac\u00e9 par l'entit\u00e9 de s\u00e9lection **Mode de cuisson**, qui permet \u00e0 la fois de lire et de modifier le mode de cuisson du four.\n\nMettez \u00e0 jour les tableaux de bord, mod\u00e8les, automatisations ou scripts pour utiliser la nouvelle entit\u00e9 de s\u00e9lection, puis d\u00e9sactivez `{entity_id}` pour qu'il soit supprim\u00e9.",
+            "title": "Le capteur de mode de cuisson du four Whirlpool est obsol\u00e8te"
+        },
+        "deprecated_oven_cook_mode_scripts": {
+            "description": "Le capteur `{entity_id}` ({entity_name}) est obsol\u00e8te et a \u00e9t\u00e9 remplac\u00e9 par l'entit\u00e9 de s\u00e9lection **Mode de cuisson**, qui permet \u00e0 la fois de lire et de modifier le mode de cuisson du four.\n\nIl est encore utilis\u00e9 dans les automatisations ou scripts suivants\u00a0:\n{items}\n\nMettez-les \u00e0 jour pour utiliser la nouvelle entit\u00e9 de s\u00e9lection, puis d\u00e9sactivez `{entity_id}` pour qu'il soit supprim\u00e9.",
+            "title": "Le capteur de mode de cuisson du four Whirlpool est obsol\u00e8te"
+        },
+        "deprecated_oven_target_temperature": {
+            "description": "Le capteur `{entity_id}` ({entity_name}) est obsol\u00e8te et a \u00e9t\u00e9 remplac\u00e9 par l'entit\u00e9 num\u00e9rique **Temp\u00e9rature cible**, qui permet \u00e0 la fois de lire et de modifier la temp\u00e9rature cible du four.\n\nMettez \u00e0 jour vos tableaux de bord, mod\u00e8les, automatisations ou scripts pour utiliser la nouvelle entit\u00e9 num\u00e9rique, puis d\u00e9sactivez `{entity_id}` pour qu'il soit supprim\u00e9.",
+            "title": "Le capteur de temp\u00e9rature cible du four Whirlpool est obsol\u00e8te"
+        },
+        "deprecated_oven_target_temperature_scripts": {
+            "description": "Le capteur `{entity_id}` ({entity_name}) est obsol\u00e8te et a \u00e9t\u00e9 remplac\u00e9 par l'entit\u00e9 num\u00e9rique **Temp\u00e9rature cible**, qui permet \u00e0 la fois de lire et de modifier la temp\u00e9rature cible du four.\n\nIl est encore utilis\u00e9 dans les automatisations ou scripts suivants :\n{items}\n\nMettez-les \u00e0 jour pour utiliser la nouvelle entit\u00e9 num\u00e9rique, puis d\u00e9sactivez `{entity_id}` pour qu'il soit supprim\u00e9.",
+            "title": "Le capteur de temp\u00e9rature cible du four Whirlpool est obsol\u00e8te"
+        }
+    }
+}

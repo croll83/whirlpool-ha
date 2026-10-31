@@ -1,6 +1,6 @@
 """Constants for the Whirlpool Appliances integration."""
 
-from whirlpool.backendselector import Brand, Region
+from .wp.backendselector import Brand, Region
 
 DOMAIN = "whirlpool"
 CONF_BRAND = "brand"
@@ -14,4 +14,5 @@ BRANDS_CONF_MAP = {
     "Whirlpool": Brand.Whirlpool,
     "Maytag": Brand.Maytag,
     "KitchenAid": Brand.KitchenAid,
+    "Consul": Brand.Consul,
 }

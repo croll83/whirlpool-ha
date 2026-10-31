@@ -1,0 +1,321 @@
+{
+    "common": {
+        "account_locked_error": "T\u00e1 an cuntas faoi ghlas. Lean na treoracha in aip an mhonar\u00f3ra le do thoil chun \u00e9 a dh\u00edghlas\u00e1il."
+    },
+    "config": {
+        "abort": {
+            "already_configured": "T\u00e1 an cuntas cumraithe cheana f\u00e9in"
+        },
+        "error": {
+            "account_locked": "T\u00e1 an cuntas faoi ghlas. Lean na treoracha in aip an mhonar\u00f3ra le do thoil chun \u00e9 a dh\u00edghlas\u00e1il.",
+            "cannot_connect": "Theip ar an nascadh",
+            "invalid_auth": "F\u00edordheimhni\u00fa neamhbhail\u00ed",
+            "no_appliances": "N\u00ed bhfuarthas aon fhearais tacaithe",
+            "unknown": "Earr\u00e1id gan choinne"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "brand": "Branda",
+                    "password": "Pasfhocal",
+                    "region": "R\u00e9igi\u00fan"
+                },
+                "data_description": {
+                    "brand": "Branda an aip shoghluaiste a \u00fas\u00e1ideann t\u00fa, n\u00f3 branda na bhfearas i do chuntas",
+                    "password": "An focal faire a \u00fas\u00e1ideann t\u00fa chun log\u00e1il isteach san aip Whirlpool/Maytag",
+                    "region": "An r\u00e9igi\u00fan inar ceanna\u00edodh do fhearais"
+                },
+                "title": "T\u00e1 an f\u00edordheimhni\u00fa imithe in \u00e9ag do {name}"
+            },
+            "user": {
+                "data": {
+                    "brand": "Branda",
+                    "password": "Pasfhocal",
+                    "region": "R\u00e9igi\u00fan",
+                    "username": "Ainm \u00fas\u00e1ideora"
+                },
+                "data_description": {
+                    "brand": "Branda an aip shoghluaiste a \u00fas\u00e1ideann t\u00fa, n\u00f3 branda na bhfearas i do chuntas",
+                    "password": "An focal faire a \u00fas\u00e1ideann t\u00fa chun log\u00e1il isteach san aip Whirlpool/Maytag",
+                    "region": "An r\u00e9igi\u00fan inar ceanna\u00edodh do fhearais",
+                    "username": "An t-ainm \u00fas\u00e1ideora n\u00f3 an seoladh r\u00edomhphoist a \u00fas\u00e1ideann t\u00fa chun log\u00e1il isteach san aip Whirlpool/Maytag"
+                },
+                "title": "Cumraigh do chuntas Whirlpool"
+            }
+        }
+    },
+    "entity": {
+        "button": {
+            "oven_stop": {
+                "name": "Stop"
+            },
+            "oven_stop_lower": {
+                "name": "Stad \u00edochtarach an oighinn"
+            },
+            "oven_stop_upper": {
+                "name": "Stad uachtarach an oighinn"
+            }
+        },
+        "light": {
+            "oven_light": {
+                "name": "Solas"
+            },
+            "oven_light_lower": {
+                "name": "Solas \u00edochtarach an oighinn"
+            },
+            "oven_light_upper": {
+                "name": "Solas an oighinn uachtaraigh"
+            }
+        },
+        "number": {
+            "oven_target_temperature": {
+                "name": "Teocht sprice"
+            },
+            "oven_target_temperature_lower": {
+                "name": "Teocht sprioc an oighinn n\u00edos \u00edsle"
+            },
+            "oven_target_temperature_upper": {
+                "name": "Teocht sprice uachtarach an oighinn"
+            }
+        },
+        "select": {
+            "oven_cook_mode": {
+                "name": "M\u00f3d c\u00f3caireachta",
+                "state": {
+                    "air_fry": "Friochadh san aer",
+                    "bake": "B\u00e1c\u00e1il",
+                    "broil": "Gr\u00edosc\u00e1n",
+                    "convection_bake": "B\u00e1c\u00e1il chomhiompair",
+                    "convection_broil": "Gr\u00edosc\u00e1n comhiompartha",
+                    "convection_roast": "R\u00f3sta comhiompartha",
+                    "keep_warm": "Coinnigh te",
+                    "standby": "Fuireachas"
+                }
+            },
+            "oven_cook_mode_lower": {
+                "name": "M\u00f3d c\u00f3caireachta san oigheann \u00edochtarach",
+                "state": {
+                    "air_fry": "Friochadh san aer",
+                    "bake": "B\u00e1c\u00e1il",
+                    "broil": "Gr\u00edosc\u00e1n",
+                    "convection_bake": "B\u00e1c\u00e1il chomhiompair",
+                    "convection_broil": "Gr\u00edosc\u00e1n comhiompartha",
+                    "convection_roast": "R\u00f3sta comhiompartha",
+                    "keep_warm": "Coinnigh te",
+                    "standby": "Fuireachas"
+                }
+            },
+            "oven_cook_mode_upper": {
+                "name": "M\u00f3d c\u00f3caireachta san oigheann uachtarach",
+                "state": {
+                    "air_fry": "Friochadh san aer",
+                    "bake": "B\u00e1c\u00e1il",
+                    "broil": "Gr\u00edosc\u00e1n",
+                    "convection_bake": "B\u00e1c\u00e1il chomhiompair",
+                    "convection_broil": "Gr\u00edosc\u00e1n comhiompartha",
+                    "convection_roast": "R\u00f3sta comhiompartha",
+                    "keep_warm": "Coinnigh te",
+                    "standby": "Fuireachas"
+                }
+            },
+            "refrigerator_temperature_level": {
+                "name": "Leibh\u00e9al teochta"
+            }
+        },
+        "sensor": {
+            "dryer_state": {
+                "name": "St\u00e1t",
+                "state": {
+                    "complete": "Cr\u00edochnaithe",
+                    "customer_focus_mode": "M\u00f3d d\u00edrithe ar chustaim\u00e9ir\u00ed",
+                    "cycle_filling": "L\u00edonadh timthriallta",
+                    "cycle_rinsing": "Sruthl\u00fa timthriallach",
+                    "cycle_sensing": "Braiteadh timthriallta",
+                    "cycle_soaking": "S\u00e1ithithe timthriallta",
+                    "cycle_spinning": "Sn\u00edomh timthriallach",
+                    "cycle_washing": "N\u00edoch\u00e1n timthriallach",
+                    "delay_countdown": "Comhaireamh siar moillithe",
+                    "delay_paused": "Moill curtha ar sos",
+                    "demo_mode": "M\u00f3d taispe\u00e1na",
+                    "exception": "Eisceacht",
+                    "factory_diagnostic_mode": "M\u00f3d diagn\u00f3iseach monarchan",
+                    "hard_stop_or_error": "Stad crua n\u00f3 earr\u00e1id",
+                    "life_test": "T\u00e1st\u00e1il saoil",
+                    "pause": "Sosaithe",
+                    "power_failure": "Teip cumhachta",
+                    "running_maincycle": "Rith pr\u00edomhrothair",
+                    "running_postcycle": "Ag rith iar-rothair",
+                    "service_diagnostic_mode": "M\u00f3d diagn\u00f3iseach seirbh\u00edse",
+                    "setting": "Socr\u00fa",
+                    "smart_delay": "Moill chliste",
+                    "smart_grid_pause": "Moill chliste",
+                    "standby": "Fuireachas",
+                    "system_initialize": "C\u00f3ras a thos\u00fa"
+                }
+            },
+            "end_time": {
+                "name": "Am deiridh"
+            },
+            "oven_cook_mode": {
+                "name": "M\u00f3d c\u00f3caireachta",
+                "state": {
+                    "air_fry": "Friochadh san aer",
+                    "bake": "B\u00e1c\u00e1il",
+                    "broil": "Gr\u00edosc\u00e1n",
+                    "convection_bake": "B\u00e1c\u00e1il chomhiompair",
+                    "convection_broil": "Gr\u00edosc\u00e1n comhiompartha",
+                    "convection_roast": "R\u00f3sta comhiompartha",
+                    "keep_warm": "Coinnigh te",
+                    "standby": "Fuireachas"
+                }
+            },
+            "oven_cook_mode_lower": {
+                "name": "M\u00f3d c\u00f3caireachta san oigheann \u00edochtarach",
+                "state": {
+                    "air_fry": "Friochadh san aer",
+                    "bake": "B\u00e1c\u00e1il",
+                    "broil": "Gr\u00edosc\u00e1n",
+                    "convection_bake": "B\u00e1c\u00e1il chomhiompair",
+                    "convection_broil": "Gr\u00edosc\u00e1n comhiompartha",
+                    "convection_roast": "R\u00f3sta comhiompartha",
+                    "keep_warm": "Coinnigh te",
+                    "standby": "Fuireachas"
+                }
+            },
+            "oven_cook_mode_upper": {
+                "name": "M\u00f3d c\u00f3caireachta san oigheann uachtarach",
+                "state": {
+                    "air_fry": "Friochadh san aer",
+                    "bake": "B\u00e1c\u00e1il",
+                    "broil": "Gr\u00edosc\u00e1n",
+                    "convection_bake": "B\u00e1c\u00e1il chomhiompair",
+                    "convection_broil": "Gr\u00edosc\u00e1n comhiompartha",
+                    "convection_roast": "R\u00f3sta comhiompartha",
+                    "keep_warm": "Coinnigh te",
+                    "standby": "Fuireachas"
+                }
+            },
+            "oven_current_temperature": {
+                "name": "Teocht reatha"
+            },
+            "oven_current_temperature_lower": {
+                "name": "Teocht reatha n\u00edos \u00edsle san oigheann"
+            },
+            "oven_current_temperature_upper": {
+                "name": "Teocht reatha an oighinn uachtaraigh"
+            },
+            "oven_state": {
+                "name": "St\u00e1t",
+                "state": {
+                    "cooking": "C\u00f3caireacht",
+                    "preheating": "R\u00e9amhth\u00e9amh",
+                    "standby": "Fuireachas"
+                }
+            },
+            "oven_state_lower": {
+                "name": "St\u00e1das n\u00edos \u00edsle san oigheann",
+                "state": {
+                    "cooking": "C\u00f3caireacht",
+                    "preheating": "R\u00e9amhth\u00e9amh",
+                    "standby": "Fuireachas"
+                }
+            },
+            "oven_state_upper": {
+                "name": "St\u00e1das uachtarach an oighinn",
+                "state": {
+                    "cooking": "C\u00f3caireacht",
+                    "preheating": "R\u00e9amhth\u00e9amh",
+                    "standby": "Fuireachas"
+                }
+            },
+            "oven_target_temperature": {
+                "name": "Teocht sprice"
+            },
+            "oven_target_temperature_lower": {
+                "name": "Teocht sprioc an oighinn n\u00edos \u00edsle"
+            },
+            "oven_target_temperature_upper": {
+                "name": "Teocht sprice uachtarach an oighinn"
+            },
+            "washer_state": {
+                "name": "St\u00e1t",
+                "state": {
+                    "complete": "Cr\u00edochnaithe",
+                    "customer_focus_mode": "M\u00f3d d\u00edrithe ar chustaim\u00e9ir\u00ed",
+                    "cycle_filling": "L\u00edonadh timthriallta",
+                    "cycle_rinsing": "Sruthl\u00fa timthriallach",
+                    "cycle_sensing": "Braiteadh timthriallta",
+                    "cycle_soaking": "S\u00e1ithithe timthriallta",
+                    "cycle_spinning": "Sn\u00edomh timthriallach",
+                    "cycle_washing": "N\u00edoch\u00e1n timthriallach",
+                    "delay_countdown": "Comhaireamh siar moillithe",
+                    "delay_paused": "Moill curtha ar sos",
+                    "demo_mode": "M\u00f3d taispe\u00e1na",
+                    "exception": "Eisceacht",
+                    "factory_diagnostic_mode": "M\u00f3d diagn\u00f3iseach monarchan",
+                    "hard_stop_or_error": "Stad crua n\u00f3 earr\u00e1id",
+                    "life_test": "T\u00e1st\u00e1il saoil",
+                    "pause": "Sosaithe",
+                    "power_failure": "Teip cumhachta",
+                    "running_maincycle": "Rith pr\u00edomhrothair",
+                    "running_postcycle": "Ag rith iar-rothair",
+                    "service_diagnostic_mode": "M\u00f3d diagn\u00f3iseach seirbh\u00edse",
+                    "setting": "Socr\u00fa",
+                    "smart_delay": "Moill chliste",
+                    "smart_grid_pause": "Moill chliste",
+                    "standby": "Fuireachas",
+                    "system_initialize": "C\u00f3ras a thos\u00fa"
+                }
+            },
+            "whirlpool_tank": {
+                "name": "Leibh\u00e9al glantach",
+                "state": {
+                    "100": "100%",
+                    "25": "25%",
+                    "50": "50%",
+                    "active": "Gn\u00edomhach",
+                    "empty": "Folamh",
+                    "unknown": "Anaithnid"
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "account_locked": {
+            "message": "T\u00e1 an cuntas faoi ghlas. Lean na treoracha in aip an mhonar\u00f3ra le do thoil chun \u00e9 a dh\u00edghlas\u00e1il."
+        },
+        "appliances_fetch_failed": {
+            "message": "Theip ar fhearais a fh\u00e1il"
+        },
+        "cannot_connect": {
+            "message": "Theip ar an nascadh"
+        },
+        "invalid_auth": {
+            "message": "F\u00edordheimhni\u00fa neamhbhail\u00ed"
+        },
+        "invalid_value_set": {
+            "message": "Luach neamhbhail\u00ed curtha ar f\u00e1il"
+        },
+        "request_failed": {
+            "message": "Theip ar an iarratas"
+        }
+    },
+    "issues": {
+        "deprecated_oven_cook_mode": {
+            "description": "T\u00e1 an braiteoir `{entity_id}` ({entity_name}) imithe i l\u00e9ig agus t\u00e1 an t-eintiteas roghnaithe **M\u00f3d C\u00f3caireachta** ina \u00e1it, ar f\u00e9idir leis an modh c\u00f3caireachta oighinn a l\u00e9amh agus a athr\u00fa araon.\n\nNuashonraigh aon phain\u00e9il rialaithe, teimpl\u00e9id, uathoibrithe n\u00f3 scripteanna chun an t-eintiteas roghnaithe nua a \u00fas\u00e1id, ansin d\u00edchumasaigh `{entity_id}` chun \u00e9 a bhaint.",
+            "title": "T\u00e1 braiteoir m\u00f3d c\u00f3caireachta oigheann Whirlpool imithe i l\u00e9ig"
+        },
+        "deprecated_oven_cook_mode_scripts": {
+            "description": "T\u00e1 an braiteoir `{entity_id}` ({entity_name}) imithe i l\u00e9ig agus t\u00e1 an t-eintiteas roghnaithe **M\u00f3d C\u00f3caireachta** ina \u00e1it, ar f\u00e9idir leis an modh c\u00f3caireachta oighinn a l\u00e9amh agus a athr\u00fa araon.\n\n\u00das\u00e1idtear \u00e9 f\u00f3s sna huathoibrithe n\u00f3 sna scripteanna seo a leanas:\n{items}\n\nNuashonraigh iad chun an t-eintiteas roghnaithe nua a \u00fas\u00e1id, ansin d\u00edchumasaigh `{entity_id}` chun \u00e9 a bhaint.",
+            "title": "T\u00e1 braiteoir m\u00f3d c\u00f3caireachta oigheann Whirlpool imithe i l\u00e9ig"
+        },
+        "deprecated_oven_target_temperature": {
+            "description": "T\u00e1 an braiteoir `{entity_id}` ({entity_name}) imithe i l\u00e9ig agus t\u00e1 an t-eintiteas uimhir **Teocht sprice** ina \u00e1it, ar f\u00e9idir leis teocht sprice an oighinn a l\u00e9amh agus a athr\u00fa araon.\n\nNuashonraigh aon phain\u00e9il rialaithe, teimpl\u00e9id, uathoibrithe n\u00f3 scripteanna chun an t-eintiteas uimhir nua a \u00fas\u00e1id, ansin d\u00edchumasaigh `{entity_id}` chun \u00e9 a bhaint.",
+            "title": "T\u00e1 braiteoir teochta sprice oigheann Whirlpool imithe i l\u00e9ig"
+        },
+        "deprecated_oven_target_temperature_scripts": {
+            "description": "T\u00e1 an braiteoir `{entity_id}` ({entity_name}) imithe i l\u00e9ig agus t\u00e1 an t-eintiteas uimhir **Teocht sprice** ina \u00e1it, ar f\u00e9idir leis teocht sprice an oighinn a l\u00e9amh agus a athr\u00fa araon.\n\n\u00das\u00e1idtear \u00e9 f\u00f3s sna huathoibrithe n\u00f3 sna scripteanna seo a leanas:\n{items}\n\nNuashonraigh iad chun an t-eintiteas uimhir nua a \u00fas\u00e1id, ansin d\u00edchumasaigh `{entity_id}` chun \u00e9 a bhaint.",
+            "title": "T\u00e1 braiteoir teochta sprice oigheann Whirlpool imithe i l\u00e9ig"
+        }
+    }
+}

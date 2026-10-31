@@ -1,0 +1,321 @@
+{
+    "common": {
+        "account_locked_error": "Hesap kilitli. L\u00fctfen kilidini a\u00e7mak i\u00e7in \u00fcreticinin uygulamas\u0131ndaki talimatlar\u0131 izleyin"
+    },
+    "config": {
+        "abort": {
+            "already_configured": "Hesap zaten yap\u0131land\u0131r\u0131lm\u0131\u015f"
+        },
+        "error": {
+            "account_locked": "Hesap kilitli. L\u00fctfen kilidini a\u00e7mak i\u00e7in \u00fcreticinin uygulamas\u0131ndaki talimatlar\u0131 izleyin",
+            "cannot_connect": "Ba\u011flanma hatas\u0131",
+            "invalid_auth": "Ge\u00e7ersiz kimlik do\u011frulama",
+            "no_appliances": "Desteklenen cihaz bulunamad\u0131",
+            "unknown": "Beklenmeyen hata"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "brand": "Marka",
+                    "password": "\u015eifre",
+                    "region": "B\u00f6lge"
+                },
+                "data_description": {
+                    "brand": "Kulland\u0131\u011f\u0131n\u0131z mobil uygulaman\u0131n markas\u0131 veya hesab\u0131n\u0131zdaki cihazlar\u0131n markas\u0131.",
+                    "password": "Whirlpool/Maytag uygulamas\u0131nda oturum a\u00e7mak i\u00e7in kulland\u0131\u011f\u0131n\u0131z parola",
+                    "region": "Cihazlar\u0131n\u0131z\u0131n sat\u0131n al\u0131nd\u0131\u011f\u0131 b\u00f6lge"
+                },
+                "title": "{name} i\u00e7in kimlik do\u011frulaman\u0131n s\u00fcresi doldu"
+            },
+            "user": {
+                "data": {
+                    "brand": "Marka",
+                    "password": "\u015eifre",
+                    "region": "B\u00f6lge",
+                    "username": "Kullan\u0131c\u0131 Ad\u0131"
+                },
+                "data_description": {
+                    "brand": "Kulland\u0131\u011f\u0131n\u0131z mobil uygulaman\u0131n markas\u0131 veya hesab\u0131n\u0131zdaki cihazlar\u0131n markas\u0131.",
+                    "password": "Whirlpool/Maytag uygulamas\u0131nda oturum a\u00e7mak i\u00e7in kulland\u0131\u011f\u0131n\u0131z parola",
+                    "region": "Cihazlar\u0131n\u0131z\u0131n sat\u0131n al\u0131nd\u0131\u011f\u0131 b\u00f6lge",
+                    "username": "Whirlpool/Maytag uygulamas\u0131nda oturum a\u00e7mak i\u00e7in kulland\u0131\u011f\u0131n\u0131z kullan\u0131c\u0131 ad\u0131 veya e-posta adresi"
+                },
+                "title": "Whirlpool hesab\u0131n\u0131z\u0131 yap\u0131land\u0131r\u0131n"
+            }
+        }
+    },
+    "entity": {
+        "button": {
+            "oven_stop": {
+                "name": "Durdur"
+            },
+            "oven_stop_lower": {
+                "name": "F\u0131r\u0131n alt durdurma"
+            },
+            "oven_stop_upper": {
+                "name": "\u00dcst f\u0131r\u0131n durdurucu"
+            }
+        },
+        "light": {
+            "oven_light": {
+                "name": "I\u015f\u0131k"
+            },
+            "oven_light_lower": {
+                "name": "Alt f\u0131r\u0131n \u0131\u015f\u0131\u011f\u0131"
+            },
+            "oven_light_upper": {
+                "name": "F\u0131r\u0131n\u0131n \u00fcst \u0131\u015f\u0131\u011f\u0131"
+            }
+        },
+        "number": {
+            "oven_target_temperature": {
+                "name": "Hedef s\u0131cakl\u0131k"
+            },
+            "oven_target_temperature_lower": {
+                "name": "F\u0131r\u0131n hedef s\u0131cakl\u0131\u011f\u0131n\u0131 d\u00fc\u015f\u00fcr\u00fcn"
+            },
+            "oven_target_temperature_upper": {
+                "name": "\u00dcst f\u0131r\u0131n hedef s\u0131cakl\u0131\u011f\u0131"
+            }
+        },
+        "select": {
+            "oven_cook_mode": {
+                "name": "Pi\u015firme modu",
+                "state": {
+                    "air_fry": "Hava frit\u00f6z\u00fc",
+                    "bake": "Pi\u015fir",
+                    "broil": "Izgara",
+                    "convection_bake": "Konveksiyonlu pi\u015firme",
+                    "convection_broil": "Konveksiyonlu \u0131zgara",
+                    "convection_roast": "Konveksiyonlu kavurma",
+                    "keep_warm": "S\u0131cak tutun",
+                    "standby": "Bekleme modu"
+                }
+            },
+            "oven_cook_mode_lower": {
+                "name": "\u00dcst f\u0131r\u0131n pi\u015firme modu",
+                "state": {
+                    "air_fry": "Hava frit\u00f6z\u00fc",
+                    "bake": "Pi\u015fir",
+                    "broil": "Izgara",
+                    "convection_bake": "Konveksiyonlu pi\u015firme",
+                    "convection_broil": "Konveksiyonlu \u0131zgara",
+                    "convection_roast": "Konveksiyonlu kavurma",
+                    "keep_warm": "S\u0131cak tutun",
+                    "standby": "Bekleme modu"
+                }
+            },
+            "oven_cook_mode_upper": {
+                "name": "\u00dcst f\u0131r\u0131n pi\u015firme modu",
+                "state": {
+                    "air_fry": "Hava frit\u00f6z\u00fc",
+                    "bake": "Pi\u015fir",
+                    "broil": "Izgara",
+                    "convection_bake": "Konveksiyonlu pi\u015firme",
+                    "convection_broil": "Konveksiyonlu \u0131zgara",
+                    "convection_roast": "Konveksiyonlu kavurma",
+                    "keep_warm": "S\u0131cak tutun",
+                    "standby": "Bekleme modu"
+                }
+            },
+            "refrigerator_temperature_level": {
+                "name": "S\u0131cakl\u0131k seviyesi"
+            }
+        },
+        "sensor": {
+            "dryer_state": {
+                "name": "Durum",
+                "state": {
+                    "complete": "Tamamland\u0131",
+                    "customer_focus_mode": "M\u00fc\u015fteri odakl\u0131 mod",
+                    "cycle_filling": "D\u00f6ng\u00fc doldurma",
+                    "cycle_rinsing": "D\u00f6ng\u00fc durulama",
+                    "cycle_sensing": "D\u00f6ng\u00fc alg\u0131lama",
+                    "cycle_soaking": "D\u00f6ng\u00fc \u0131slatma",
+                    "cycle_spinning": "D\u00f6ng\u00fc \u00e7evirme",
+                    "cycle_washing": "D\u00f6ng\u00fcsel y\u0131kama",
+                    "delay_countdown": "Gecikme geri say\u0131m\u0131",
+                    "delay_paused": "Gecikme duraklat\u0131ld\u0131",
+                    "demo_mode": "Tan\u0131t\u0131m Modu",
+                    "exception": "\u0130stisna",
+                    "factory_diagnostic_mode": "Fabrika te\u015fhis modu",
+                    "hard_stop_or_error": "Sert durdurma veya hata",
+                    "life_test": "Ya\u015fam testi",
+                    "pause": "Durduruldu",
+                    "power_failure": "Elektrik kesintisi",
+                    "running_maincycle": "Ana d\u00f6ng\u00fcy\u00fc \u00e7al\u0131\u015ft\u0131rma",
+                    "running_postcycle": "D\u00f6ng\u00fc sonras\u0131 \u00e7al\u0131\u015ft\u0131rma",
+                    "service_diagnostic_mode": "Servis te\u015fhis modu",
+                    "setting": "Ayar",
+                    "smart_delay": "Ak\u0131ll\u0131 gecikme",
+                    "smart_grid_pause": "Ak\u0131ll\u0131 gecikme",
+                    "standby": "Bekleme modu",
+                    "system_initialize": "Sistem ba\u015flat\u0131l\u0131yor"
+                }
+            },
+            "end_time": {
+                "name": "Biti\u015f zaman\u0131"
+            },
+            "oven_cook_mode": {
+                "name": "Pi\u015firme modu",
+                "state": {
+                    "air_fry": "Hava frit\u00f6z\u00fc",
+                    "bake": "Pi\u015fir",
+                    "broil": "Izgara",
+                    "convection_bake": "Konveksiyonlu pi\u015firme",
+                    "convection_broil": "Konveksiyonlu \u0131zgara",
+                    "convection_roast": "Konveksiyonlu kavurma",
+                    "keep_warm": "S\u0131cak tutun",
+                    "standby": "Bekleme modu"
+                }
+            },
+            "oven_cook_mode_lower": {
+                "name": "Alt f\u0131r\u0131n pi\u015firme modu",
+                "state": {
+                    "air_fry": "Hava frit\u00f6z\u00fc",
+                    "bake": "Pi\u015fir",
+                    "broil": "Izgara",
+                    "convection_bake": "Konveksiyonlu pi\u015firme",
+                    "convection_broil": "Konveksiyonlu \u0131zgara",
+                    "convection_roast": "Konveksiyonlu kavurma",
+                    "keep_warm": "S\u0131cak tutun",
+                    "standby": "Bekleme modu"
+                }
+            },
+            "oven_cook_mode_upper": {
+                "name": "\u00dcst f\u0131r\u0131n pi\u015firme modu",
+                "state": {
+                    "air_fry": "Hava frit\u00f6z\u00fc",
+                    "bake": "Pi\u015fir",
+                    "broil": "Izgara",
+                    "convection_bake": "Konveksiyonlu pi\u015firme",
+                    "convection_broil": "Konveksiyonlu \u0131zgara",
+                    "convection_roast": "Konveksiyonlu kavurma",
+                    "keep_warm": "S\u0131cak tutun",
+                    "standby": "Bekleme modu"
+                }
+            },
+            "oven_current_temperature": {
+                "name": "Mevcut s\u0131cakl\u0131k"
+            },
+            "oven_current_temperature_lower": {
+                "name": "F\u0131r\u0131n\u0131n mevcut s\u0131cakl\u0131\u011f\u0131n\u0131 d\u00fc\u015f\u00fcr\u00fcn"
+            },
+            "oven_current_temperature_upper": {
+                "name": "\u00dcst f\u0131r\u0131n mevcut s\u0131cakl\u0131\u011f\u0131"
+            },
+            "oven_state": {
+                "name": "Durum",
+                "state": {
+                    "cooking": "Pi\u015fiyor",
+                    "preheating": "\u00d6n \u0131s\u0131tma",
+                    "standby": "Bekleme modu"
+                }
+            },
+            "oven_state_lower": {
+                "name": "Alt f\u0131r\u0131n durumu",
+                "state": {
+                    "cooking": "Pi\u015fiyor",
+                    "preheating": "\u00d6n \u0131s\u0131tma",
+                    "standby": "Bekleme modu"
+                }
+            },
+            "oven_state_upper": {
+                "name": "\u00dcst f\u0131r\u0131n durumu",
+                "state": {
+                    "cooking": "Pi\u015fiyor",
+                    "preheating": "\u00d6n \u0131s\u0131tma",
+                    "standby": "Bekleme modu"
+                }
+            },
+            "oven_target_temperature": {
+                "name": "Hedef s\u0131cakl\u0131k"
+            },
+            "oven_target_temperature_lower": {
+                "name": "Daha d\u00fc\u015f\u00fck f\u0131r\u0131n hedef s\u0131cakl\u0131\u011f\u0131"
+            },
+            "oven_target_temperature_upper": {
+                "name": "\u00dcst f\u0131r\u0131n hedef s\u0131cakl\u0131\u011f\u0131"
+            },
+            "washer_state": {
+                "name": "Durum",
+                "state": {
+                    "complete": "Tamamland\u0131",
+                    "customer_focus_mode": "M\u00fc\u015fteri odakl\u0131 mod",
+                    "cycle_filling": "D\u00f6ng\u00fc doldurma",
+                    "cycle_rinsing": "D\u00f6ng\u00fc durulama",
+                    "cycle_sensing": "D\u00f6ng\u00fc alg\u0131lama",
+                    "cycle_soaking": "D\u00f6ng\u00fc \u0131slatma",
+                    "cycle_spinning": "D\u00f6ng\u00fc \u00e7evirme",
+                    "cycle_washing": "D\u00f6ng\u00fcsel y\u0131kama",
+                    "delay_countdown": "Gecikme geri say\u0131m\u0131",
+                    "delay_paused": "Gecikme duraklat\u0131ld\u0131",
+                    "demo_mode": "Tan\u0131t\u0131m Modu",
+                    "exception": "\u0130stisna",
+                    "factory_diagnostic_mode": "Fabrika te\u015fhis modu",
+                    "hard_stop_or_error": "Sert durdurma veya hata",
+                    "life_test": "Ya\u015fam testi",
+                    "pause": "Durduruldu",
+                    "power_failure": "Elektrik kesintisi",
+                    "running_maincycle": "Ana d\u00f6ng\u00fcy\u00fc \u00e7al\u0131\u015ft\u0131rma",
+                    "running_postcycle": "D\u00f6ng\u00fc sonras\u0131 \u00e7al\u0131\u015ft\u0131rma",
+                    "service_diagnostic_mode": "Servis te\u015fhis modu",
+                    "setting": "Ayar",
+                    "smart_delay": "Ak\u0131ll\u0131 gecikme",
+                    "smart_grid_pause": "Ak\u0131ll\u0131 gecikme",
+                    "standby": "Bekleme modu",
+                    "system_initialize": "Sistem ba\u015flat\u0131l\u0131yor"
+                }
+            },
+            "whirlpool_tank": {
+                "name": "Deterjan seviyesi",
+                "state": {
+                    "100": "100%",
+                    "25": "25%",
+                    "50": "50%",
+                    "active": "Etkin",
+                    "empty": "Bo\u015f",
+                    "unknown": "Bilinmeyen"
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "account_locked": {
+            "message": "Hesap kilitli. L\u00fctfen kilidini a\u00e7mak i\u00e7in \u00fcreticinin uygulamas\u0131ndaki talimatlar\u0131 izleyin"
+        },
+        "appliances_fetch_failed": {
+            "message": "Cihazlar getirilemedi"
+        },
+        "cannot_connect": {
+            "message": "Ba\u011flanma hatas\u0131"
+        },
+        "invalid_auth": {
+            "message": "Ge\u00e7ersiz kimlik do\u011frulama"
+        },
+        "invalid_value_set": {
+            "message": "Ge\u00e7ersiz de\u011fer sa\u011fland\u0131"
+        },
+        "request_failed": {
+            "message": "\u0130stek ba\u015far\u0131s\u0131z oldu"
+        }
+    },
+    "issues": {
+        "deprecated_oven_cook_mode": {
+            "description": "`{entity_id}`({entity_name} (Bu sens\u00f6r kullan\u0131mdan kald\u0131r\u0131lm\u0131\u015ft\u0131r ve f\u0131r\u0131n pi\u015firme modunu hem okuyabilen hem de de\u011fi\u015ftirebilen **Pi\u015firme modu** se\u00e7me \u00f6zelli\u011fi ile de\u011fi\u015ftirilmi\u015ftir.)\n\nYeni se\u00e7me varl\u0131\u011f\u0131n\u0131 kullanmak i\u00e7in t\u00fcm g\u00f6sterge panolar\u0131n\u0131, \u015fablonlar\u0131, otomasyonlar\u0131 veya komut dosyalar\u0131n\u0131 g\u00fcncelleyin, ard\u0131ndan `{entity_id} Kald\u0131r\u0131lmas\u0131n\u0131 sa\u011flamak i\u00e7in.",
+            "title": "Whirlpool f\u0131r\u0131n pi\u015firme modu sens\u00f6r\u00fc art\u0131k kullan\u0131lm\u0131yor."
+        },
+        "deprecated_oven_cook_mode_scripts": {
+            "description": "`{entity_id}`({entity_name}(Bu sens\u00f6r kullan\u0131mdan kald\u0131r\u0131lm\u0131\u015ft\u0131r ve f\u0131r\u0131n pi\u015firme modunu hem okuyabilen hem de de\u011fi\u015ftirebilen **Pi\u015firme modu** se\u00e7me \u00f6zelli\u011fi ile de\u011fi\u015ftirilmi\u015ftir.)\n\nHalen a\u015fa\u011f\u0131daki otomasyonlarda veya komut dosyalar\u0131nda kullan\u0131lmaktad\u0131r:\n{items}\n\nBunlar\u0131 yeni select varl\u0131\u011f\u0131n\u0131 kullanacak \u015fekilde g\u00fcncelleyin, ard\u0131ndan ` se\u00e7ene\u011fini devre d\u0131\u015f\u0131 b\u0131rak\u0131n.{entity_id}Kald\u0131r\u0131lmas\u0131n\u0131 sa\u011flamak i\u00e7in.",
+            "title": "Whirlpool f\u0131r\u0131n pi\u015firme modu sens\u00f6r\u00fc art\u0131k kullan\u0131lm\u0131yor."
+        },
+        "deprecated_oven_target_temperature": {
+            "description": "`{entity_id}`({entity_name}(Bu sens\u00f6r kullan\u0131mdan kald\u0131r\u0131lm\u0131\u015ft\u0131r ve f\u0131r\u0131n\u0131n hedef s\u0131cakl\u0131\u011f\u0131n\u0131 hem okuyabilen hem de de\u011fi\u015ftirebilen **Hedef s\u0131cakl\u0131k** say\u0131sal varl\u0131\u011f\u0131 ile de\u011fi\u015ftirilmi\u015ftir.)\n\nYeni say\u0131 varl\u0131\u011f\u0131n\u0131 kullanmak i\u00e7in t\u00fcm g\u00f6sterge panolar\u0131n\u0131, \u015fablonlar\u0131, otomasyonlar\u0131 veya komut dosyalar\u0131n\u0131 g\u00fcncelleyin, ard\u0131ndan `{entity_id}Kald\u0131r\u0131lmas\u0131n\u0131 sa\u011flamak i\u00e7in.",
+            "title": "Whirlpool f\u0131r\u0131n hedef s\u0131cakl\u0131k sens\u00f6r\u00fcn\u00fcn \u00fcretimi durdurulmu\u015ftur"
+        },
+        "deprecated_oven_target_temperature_scripts": {
+            "description": "`{entity_id}`({entity_name}(Bu sens\u00f6r kullan\u0131mdan kald\u0131r\u0131lm\u0131\u015ft\u0131r ve f\u0131r\u0131n\u0131n hedef s\u0131cakl\u0131\u011f\u0131n\u0131 hem okuyabilen hem de de\u011fi\u015ftirebilen **Hedef s\u0131cakl\u0131k** say\u0131sal varl\u0131\u011f\u0131 ile de\u011fi\u015ftirilmi\u015ftir.)\n\nHalen a\u015fa\u011f\u0131daki otomasyonlarda veya komut dosyalar\u0131nda kullan\u0131lmaktad\u0131r:\n{items}\n\nBunlar\u0131 yeni say\u0131 varl\u0131\u011f\u0131n\u0131 kullanacak \u015fekilde g\u00fcncelleyin, ard\u0131ndan ` i\u015faretini devre d\u0131\u015f\u0131 b\u0131rak\u0131n.{entity_id}Kald\u0131r\u0131lmas\u0131n\u0131 sa\u011flamak i\u00e7in.",
+            "title": "Whirlpool f\u0131r\u0131n hedef s\u0131cakl\u0131k sens\u00f6r\u00fcn\u00fcn \u00fcretimi durdurulmu\u015ftur"
+        }
+    }
+}

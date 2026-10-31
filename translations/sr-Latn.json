@@ -1,0 +1,321 @@
+{
+    "common": {
+        "account_locked_error": "Nalog je zaklju\u010dan. Molimo vas da pratite uputstva u aplikaciji proizvo\u0111a\u010da da biste ga otklju\u010dali"
+    },
+    "config": {
+        "abort": {
+            "already_configured": "Nalog je ve\u0107 pode\u0161en"
+        },
+        "error": {
+            "account_locked": "Nalog je zaklju\u010dan. Molimo vas da pratite uputstva u aplikaciji proizvo\u0111a\u010da da biste ga otklju\u010dali",
+            "cannot_connect": "Povezivanje nije uspelo",
+            "invalid_auth": "Neva\u017ee\u0107i podaci za prijavu",
+            "no_appliances": "Nisu prona\u0111eni podr\u017eani ure\u0111aji",
+            "unknown": "Neo\u010dekivana gre\u0161ka"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "brand": "Proizvo\u0111a\u010d",
+                    "password": "Lozinka",
+                    "region": "Region"
+                },
+                "data_description": {
+                    "brand": "Brend mobilne aplikacije koju koristite ili brend ure\u0111aja u va\u0161em nalogu",
+                    "password": "Lozinka koju koristite za prijavu u Whirlpool/Maytag aplikaciju",
+                    "region": "Region u kojem su va\u0161i ure\u0111aji kupljeni"
+                },
+                "title": "Prijava je istekla za {name}"
+            },
+            "user": {
+                "data": {
+                    "brand": "Proizvo\u0111a\u010d",
+                    "password": "Lozinka",
+                    "region": "Region",
+                    "username": "Korisni\u010dko ime"
+                },
+                "data_description": {
+                    "brand": "Brend mobilne aplikacije koju koristite ili brend ure\u0111aja u va\u0161em nalogu",
+                    "password": "Lozinka koju koristite za prijavu u Whirlpool/Maytag aplikaciju",
+                    "region": "Region u kojem su va\u0161i ure\u0111aji kupljeni",
+                    "username": "Korisni\u010dko ime ili imejl adresa koju koristite za prijavu u Whirlpool/Maytag aplikaciju"
+                },
+                "title": "Podesite va\u0161 Whirlpool nalog"
+            }
+        }
+    },
+    "entity": {
+        "button": {
+            "oven_stop": {
+                "name": "Zaustavite"
+            },
+            "oven_stop_lower": {
+                "name": "Zaustavite donju rernu"
+            },
+            "oven_stop_upper": {
+                "name": "Zaustavite gornju rernu"
+            }
+        },
+        "light": {
+            "oven_light": {
+                "name": "Svetlo"
+            },
+            "oven_light_lower": {
+                "name": "Donje svetlo rerne"
+            },
+            "oven_light_upper": {
+                "name": "Gornje svetlo rerne"
+            }
+        },
+        "number": {
+            "oven_target_temperature": {
+                "name": "Ciljana temperatura"
+            },
+            "oven_target_temperature_lower": {
+                "name": "Ciljana temperatura donje rerne"
+            },
+            "oven_target_temperature_upper": {
+                "name": "Ciljana temperatura gornje rerne"
+            }
+        },
+        "select": {
+            "oven_cook_mode": {
+                "name": "Re\u017eim pe\u010denja",
+                "state": {
+                    "air_fry": "Pr\u017eenje na vazduhu",
+                    "bake": "Pe\u010denje",
+                    "broil": "Gril",
+                    "convection_bake": "Konvekcijsko pe\u010denje",
+                    "convection_broil": "Konvekcijski gril",
+                    "convection_roast": "Konvekcijsko pe\u010denje",
+                    "keep_warm": "Odr\u017eavanje toplote",
+                    "standby": "Pripravnost"
+                }
+            },
+            "oven_cook_mode_lower": {
+                "name": "Re\u017eim pe\u010denja donje rerne",
+                "state": {
+                    "air_fry": "Pr\u017eenje na vazduhu",
+                    "bake": "Pe\u010denje",
+                    "broil": "Gril",
+                    "convection_bake": "Konvekcijsko pe\u010denje",
+                    "convection_broil": "Konvekcijski gril",
+                    "convection_roast": "Konvekcijsko pe\u010denje",
+                    "keep_warm": "Odr\u017eavanje toplote",
+                    "standby": "Pripravnost"
+                }
+            },
+            "oven_cook_mode_upper": {
+                "name": "Re\u017eim pe\u010denja gornje rerne",
+                "state": {
+                    "air_fry": "Pr\u017eenje na vazduhu",
+                    "bake": "Pe\u010denje",
+                    "broil": "Gril",
+                    "convection_bake": "Konvekcijsko pe\u010denje",
+                    "convection_broil": "Konvekcijski gril",
+                    "convection_roast": "Konvekcijsko pe\u010denje",
+                    "keep_warm": "Odr\u017eavanje toplote",
+                    "standby": "Pripravnost"
+                }
+            },
+            "refrigerator_temperature_level": {
+                "name": "Nivo temperature"
+            }
+        },
+        "sensor": {
+            "dryer_state": {
+                "name": "Stanje",
+                "state": {
+                    "complete": "Zavr\u0161eno",
+                    "customer_focus_mode": "Re\u017eim usmeren na korisnika",
+                    "cycle_filling": "Ciklus punjenja",
+                    "cycle_rinsing": "Ciklus ispiranja",
+                    "cycle_sensing": "Ciklus detekcije",
+                    "cycle_soaking": "Ciklus natapanja",
+                    "cycle_spinning": "Ciklus centrifugiranja",
+                    "cycle_washing": "Ciklus pranja",
+                    "delay_countdown": "Odbrojavanje odlaganja",
+                    "delay_paused": "Pauza odlo\u017eenog starta",
+                    "demo_mode": "Demonstracioni re\u017eim",
+                    "exception": "Izuzetak",
+                    "factory_diagnostic_mode": "Fabri\u010dki dijagnosti\u010dki re\u017eim",
+                    "hard_stop_or_error": "Naglo zaustavljanje ili gre\u0161ka",
+                    "life_test": "Test trajnosti",
+                    "pause": "Pauzirano",
+                    "power_failure": "Prekid napajanja",
+                    "running_maincycle": "Pokrenut glavni ciklus",
+                    "running_postcycle": "Pokrenut zavr\u0161ni ciklus",
+                    "service_diagnostic_mode": "Servisni dijagnosti\u010dki re\u017eim",
+                    "setting": "Pode\u0161avanja",
+                    "smart_delay": "Pametno odlaganje",
+                    "smart_grid_pause": "Pametno odlaganje",
+                    "standby": "Pripravnost",
+                    "system_initialize": "Inicijalizacija sistema"
+                }
+            },
+            "end_time": {
+                "name": "Vreme zavr\u0161etka"
+            },
+            "oven_cook_mode": {
+                "name": "Re\u017eim kuvanja",
+                "state": {
+                    "air_fry": "Pr\u017eite na vazduhu",
+                    "bake": "Pe\u010denje",
+                    "broil": "Grilovanje",
+                    "convection_bake": "Ventilatorsko pe\u010denje",
+                    "convection_broil": "Ventilatorsko grilovanje",
+                    "convection_roast": "Ventilatorsko pe\u010denje mesa",
+                    "keep_warm": "Dr\u017eite toplo",
+                    "standby": "Pripravnost"
+                }
+            },
+            "oven_cook_mode_lower": {
+                "name": "Re\u017eim kuvanja donje rerne",
+                "state": {
+                    "air_fry": "Pr\u017eite na vazduhu",
+                    "bake": "Pe\u010denje",
+                    "broil": "Grilovanje",
+                    "convection_bake": "Ventilatorsko pe\u010denje",
+                    "convection_broil": "Ventilatorsko grilovanje",
+                    "convection_roast": "Ventilatorsko pe\u010denje mesa",
+                    "keep_warm": "Dr\u017eite toplo",
+                    "standby": "Pripravnost"
+                }
+            },
+            "oven_cook_mode_upper": {
+                "name": "Re\u017eim kuvanja gornje rerne",
+                "state": {
+                    "air_fry": "Pr\u017eite na vazduhu",
+                    "bake": "Pe\u010denje",
+                    "broil": "Grilovanje",
+                    "convection_bake": "Ventilatorsko pe\u010denje",
+                    "convection_broil": "Ventilatorsko grilovanje",
+                    "convection_roast": "Ventilatorsko pe\u010denje mesa",
+                    "keep_warm": "Dr\u017eite toplo",
+                    "standby": "Pripravnost"
+                }
+            },
+            "oven_current_temperature": {
+                "name": "Trenutna temperatura"
+            },
+            "oven_current_temperature_lower": {
+                "name": "Trenutna temperatura donje rerne"
+            },
+            "oven_current_temperature_upper": {
+                "name": "Trenutna temperatura gornje rerne"
+            },
+            "oven_state": {
+                "name": "Stanje",
+                "state": {
+                    "cooking": "Kuvanje",
+                    "preheating": "Prethodno zagrevanje",
+                    "standby": "Pripravnost"
+                }
+            },
+            "oven_state_lower": {
+                "name": "Stanje donje rerne",
+                "state": {
+                    "cooking": "Kuvanje",
+                    "preheating": "Prethodno zagrevanje",
+                    "standby": "Pripravnost"
+                }
+            },
+            "oven_state_upper": {
+                "name": "Stanje gornje rerne",
+                "state": {
+                    "cooking": "Kuvanje",
+                    "preheating": "Prethodno zagrevanje",
+                    "standby": "Pripravnost"
+                }
+            },
+            "oven_target_temperature": {
+                "name": "Ciljna temperatura"
+            },
+            "oven_target_temperature_lower": {
+                "name": "Ciljna temperatura donje rerne"
+            },
+            "oven_target_temperature_upper": {
+                "name": "Ciljna temperatura gornje rerne"
+            },
+            "washer_state": {
+                "name": "Stanje",
+                "state": {
+                    "complete": "Zavr\u0161eno",
+                    "customer_focus_mode": "Re\u017eim usmeren na korisnika",
+                    "cycle_filling": "Ciklus punjenja",
+                    "cycle_rinsing": "Ciklus ispiranja",
+                    "cycle_sensing": "Ciklus detekcije",
+                    "cycle_soaking": "Ciklus natapanja",
+                    "cycle_spinning": "Ciklus centrifugiranja",
+                    "cycle_washing": "Ciklus pranja",
+                    "delay_countdown": "Odbrojavanje odlaganja",
+                    "delay_paused": "Pauza odlo\u017eenog starta",
+                    "demo_mode": "Demonstracioni re\u017eim",
+                    "exception": "Izuzetak",
+                    "factory_diagnostic_mode": "Fabri\u010dki dijagnosti\u010dki re\u017eim",
+                    "hard_stop_or_error": "Naglo zaustavljanje ili gre\u0161ka",
+                    "life_test": "Test trajnosti",
+                    "pause": "Pauzirano",
+                    "power_failure": "Prekid napajanja",
+                    "running_maincycle": "Pokrenut glavni ciklus",
+                    "running_postcycle": "Pokrenut zavr\u0161ni ciklus",
+                    "service_diagnostic_mode": "Servisni dijagnosti\u010dki re\u017eim",
+                    "setting": "Pode\u0161avanja",
+                    "smart_delay": "Pametno odlaganje",
+                    "smart_grid_pause": "Pametno odlaganje",
+                    "standby": "Pripravnost",
+                    "system_initialize": "Inicijalizacija sistema"
+                }
+            },
+            "whirlpool_tank": {
+                "name": "Nivo deterd\u017eenta",
+                "state": {
+                    "100": "100%",
+                    "25": "25%",
+                    "50": "50%",
+                    "active": "Aktivno",
+                    "empty": "Prazno",
+                    "unknown": "Nepoznato"
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "account_locked": {
+            "message": "Nalog je zaklju\u010dan. Molimo vas da pratite uputstva u aplikaciji proizvo\u0111a\u010da da biste ga otklju\u010dali"
+        },
+        "appliances_fetch_failed": {
+            "message": "Nije mogu\u0107e preuzeti ure\u0111aje"
+        },
+        "cannot_connect": {
+            "message": "Povezivanje nije uspelo"
+        },
+        "invalid_auth": {
+            "message": "Neva\u017ee\u0107i podaci za prijavu"
+        },
+        "invalid_value_set": {
+            "message": "Neispravna vrednost"
+        },
+        "request_failed": {
+            "message": "Zahtev nije uspeo"
+        }
+    },
+    "issues": {
+        "deprecated_oven_cook_mode": {
+            "description": "Senzor \u201e{entity_id}\u201c ({entity_name}) vi\u0161e nije podr\u017ean i zamenjen je entitetom izbora **Re\u017eim pe\u010denja**, koji omogu\u0107ava i \u010ditanje i promenu re\u017eima rerne.\n\nA\u017eurirajte sve kontrolne table, \u0161ablone, automatizacije ili skripte kako bi koristile novi entitet izbora, a zatim onemogu\u0107ite \u201e{entity_id}\u201c da bi bio uklonjen.",
+            "title": "Senzor re\u017eima pe\u010denja za Whirlpool rernu je zastareo."
+        },
+        "deprecated_oven_cook_mode_scripts": {
+            "description": "Senzor \u201e{entity_id}\u201c ({entity_name}) vi\u0161e nije podr\u017ean i zamenjen je entitetom izbora **Re\u017eim pe\u010denja**, koji omogu\u0107ava i \u010ditanje i promenu re\u017eima rerne.\n\nJo\u0161 uvek se koristi u slede\u0107im automatizacijama ili skriptama: {items}\n\nA\u017eurirajte ih kako bi koristile novi entitet izbora, a zatim onemogu\u0107ite \u201e{entity_id}\u201c da bi bio uklonjen.",
+            "title": "Senzor re\u017eima pe\u010denja za Whirlpool rernu je zastareo."
+        },
+        "deprecated_oven_target_temperature": {
+            "description": "Senzor \u201e{entity_id}\u201c ({entity_name}) vi\u0161e nije podr\u017ean i zamenjen je broj\u010danim entitetom **Ciljana temperatura**, koji omogu\u0107ava i \u010ditanje i promenu ciljane temperature rerne.\n\nA\u017eurirajte sve kontrolne table, \u0161ablone, automatizacije ili skripte kako bi koristile novi broj\u010dani entitet, a zatim onemogu\u0107ite \u201e{entity_id}\u201c da bi bio uklonjen.",
+            "title": "Senzor ciljane temperature za Whirlpool rernu vi\u0161e nije podr\u017ean"
+        },
+        "deprecated_oven_target_temperature_scripts": {
+            "description": "Senzor \u201e{entity_id}\u201c ({entity_name}) vi\u0161e nije podr\u017ean i zamenjen je broj\u010danim entitetom **Ciljana temperatura**, koji omogu\u0107ava i \u010ditanje i promenu ciljane temperature rerne. \nJo\u0161 uvek se koristi u slede\u0107im automatizacijama ili skriptama: \n{items}\n\nA\u017eurirajte ih kako bi koristile novi broj\u010dani entitet, a zatim onemogu\u0107ite \u201e{entity_id}\u201c da bi bio uklonjen.",
+            "title": "Senzor ciljane temperature za Whirlpool rernu vi\u0161e nije podr\u017ean"
+        }
+    }
+}

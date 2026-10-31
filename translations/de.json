@@ -1,0 +1,321 @@
+{
+    "common": {
+        "account_locked_error": "Das Konto ist gesperrt. Bitte folge den Anweisungen in der App des Herstellers, um es zu entsperren"
+    },
+    "config": {
+        "abort": {
+            "already_configured": "Konto ist bereits konfiguriert"
+        },
+        "error": {
+            "account_locked": "Das Konto ist gesperrt. Bitte folge den Anweisungen in der App des Herstellers, um es zu entsperren",
+            "cannot_connect": "Verbindung fehlgeschlagen",
+            "invalid_auth": "Ung\u00fcltige Authentifizierung",
+            "no_appliances": "Keine unterst\u00fctzten Ger\u00e4te gefunden",
+            "unknown": "Unerwarteter Fehler"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "brand": "Marke",
+                    "password": "Passwort",
+                    "region": "Region"
+                },
+                "data_description": {
+                    "brand": "Die Marke der verwendeten Mobile-App oder der Ger\u00e4te in deinem Konto",
+                    "password": "Das Passwort zur Anmeldung in der Whirlpool/Maytag-App",
+                    "region": "Die Region, in der deine Ger\u00e4te gekauft wurden"
+                },
+                "title": "Authentifizierung f\u00fcr {name} abgelaufen"
+            },
+            "user": {
+                "data": {
+                    "brand": "Marke",
+                    "password": "Passwort",
+                    "region": "Region",
+                    "username": "Benutzername"
+                },
+                "data_description": {
+                    "brand": "Die Marke der verwendeten Mobile-App oder der Ger\u00e4te in deinem Konto",
+                    "password": "Das Passwort zur Anmeldung in der Whirlpool/Maytag-App",
+                    "region": "Die Region, in der deine Ger\u00e4te gekauft wurden",
+                    "username": "Der Benutzername oder die E-Mail-Adresse zur Anmeldung in der Whirlpool/Maytag-App"
+                },
+                "title": "Dein Whirlpool-Konto konfigurieren"
+            }
+        }
+    },
+    "entity": {
+        "button": {
+            "oven_stop": {
+                "name": "Stoppen"
+            },
+            "oven_stop_lower": {
+                "name": "Unteren Ofen stoppen"
+            },
+            "oven_stop_upper": {
+                "name": "Oberen Ofen stoppen"
+            }
+        },
+        "light": {
+            "oven_light": {
+                "name": "Beleuchtung"
+            },
+            "oven_light_lower": {
+                "name": "Beleuchtung unterer Ofen"
+            },
+            "oven_light_upper": {
+                "name": "Beleuchtung oberer Ofen"
+            }
+        },
+        "number": {
+            "oven_target_temperature": {
+                "name": "Solltemperatur"
+            },
+            "oven_target_temperature_lower": {
+                "name": "Solltemperatur unterer Backofen"
+            },
+            "oven_target_temperature_upper": {
+                "name": "Solltemperatur oberer Backofen"
+            }
+        },
+        "select": {
+            "oven_cook_mode": {
+                "name": "Backofenmodus",
+                "state": {
+                    "air_fry": "Air Fry",
+                    "bake": "Backen",
+                    "broil": "Grillen",
+                    "convection_bake": "Umluftbacken",
+                    "convection_broil": "Umluftgrillen",
+                    "convection_roast": "Umluftbraten",
+                    "keep_warm": "Warmhalten",
+                    "standby": "Standby"
+                }
+            },
+            "oven_cook_mode_lower": {
+                "name": "Modus unterer Backofen",
+                "state": {
+                    "air_fry": "Air Fry",
+                    "bake": "Backen",
+                    "broil": "Grillen",
+                    "convection_bake": "Umluftbacken",
+                    "convection_broil": "Umluftgrillen",
+                    "convection_roast": "Umluftbraten",
+                    "keep_warm": "Warmhalten",
+                    "standby": "Standby"
+                }
+            },
+            "oven_cook_mode_upper": {
+                "name": "Modus oberer Backofen",
+                "state": {
+                    "air_fry": "Air Fry",
+                    "bake": "Backen",
+                    "broil": "Grillen",
+                    "convection_bake": "Umluftbacken",
+                    "convection_broil": "Umluftgrillen",
+                    "convection_roast": "Umluftbraten",
+                    "keep_warm": "Warmhalten",
+                    "standby": "Standby"
+                }
+            },
+            "refrigerator_temperature_level": {
+                "name": "Temperaturniveau"
+            }
+        },
+        "sensor": {
+            "dryer_state": {
+                "name": "Zustand",
+                "state": {
+                    "complete": "Fertig",
+                    "customer_focus_mode": "Kundenfokus-Modus",
+                    "cycle_filling": "Bef\u00fcllzyklus",
+                    "cycle_rinsing": "Sp\u00fclgang",
+                    "cycle_sensing": "Erkennungszyklus",
+                    "cycle_soaking": "Einweichzyklus",
+                    "cycle_spinning": "Schleudergang",
+                    "cycle_washing": "Waschgang",
+                    "delay_countdown": "Verz\u00f6gerungs-Countdown",
+                    "delay_paused": "Verz\u00f6gerung pausiert",
+                    "demo_mode": "Demo-Modus",
+                    "exception": "Ausnahme",
+                    "factory_diagnostic_mode": "Werksdiagnose-Modus",
+                    "hard_stop_or_error": "Harter Stopp oder Fehler",
+                    "life_test": "Lebensdauerpr\u00fcfung",
+                    "pause": "Pausiert",
+                    "power_failure": "Stromausfall",
+                    "running_maincycle": "Laufender Hauptzyklus",
+                    "running_postcycle": "Laufender Nachzyklus",
+                    "service_diagnostic_mode": "Wartungsdiagnose-Modus",
+                    "setting": "Einstellung",
+                    "smart_delay": "Smart Delay",
+                    "smart_grid_pause": "Smart Delay",
+                    "standby": "Standby",
+                    "system_initialize": "Systeminitialisierung"
+                }
+            },
+            "end_time": {
+                "name": "Endzeit"
+            },
+            "oven_cook_mode": {
+                "name": "Backofenmodus",
+                "state": {
+                    "air_fry": "Hei\u00dfluftfrittieren",
+                    "bake": "Backen",
+                    "broil": "Grillen",
+                    "convection_bake": "Umluftbacken",
+                    "convection_broil": "Konvektionsgrillen",
+                    "convection_roast": "Konvektionsbraten",
+                    "keep_warm": "Warmhalten",
+                    "standby": "Standby"
+                }
+            },
+            "oven_cook_mode_lower": {
+                "name": "Modus unterer Backofen",
+                "state": {
+                    "air_fry": "Hei\u00dfluftfrittieren",
+                    "bake": "Backen",
+                    "broil": "Grillen",
+                    "convection_bake": "Umluftbacken",
+                    "convection_broil": "Konvektionsgrillen",
+                    "convection_roast": "Konvektionsbraten",
+                    "keep_warm": "Warmhalten",
+                    "standby": "Standby"
+                }
+            },
+            "oven_cook_mode_upper": {
+                "name": "Modus oberer Backofen",
+                "state": {
+                    "air_fry": "Hei\u00dfluftfrittieren",
+                    "bake": "Backen",
+                    "broil": "Grillen",
+                    "convection_bake": "Umluftbacken",
+                    "convection_broil": "Konvektionsgrillen",
+                    "convection_roast": "Konvektionsbraten",
+                    "keep_warm": "Warmhalten",
+                    "standby": "Standby"
+                }
+            },
+            "oven_current_temperature": {
+                "name": "Aktuelle Temperatur"
+            },
+            "oven_current_temperature_lower": {
+                "name": "Aktuelle Temperatur unterer Backofen"
+            },
+            "oven_current_temperature_upper": {
+                "name": "Aktuelle Temperatur oberer Backofen"
+            },
+            "oven_state": {
+                "name": "Zustand",
+                "state": {
+                    "cooking": "Kochen",
+                    "preheating": "Vorheizen",
+                    "standby": "Standby"
+                }
+            },
+            "oven_state_lower": {
+                "name": "Zustand unterer Backofen",
+                "state": {
+                    "cooking": "Kochen",
+                    "preheating": "Vorheizen",
+                    "standby": "Standby"
+                }
+            },
+            "oven_state_upper": {
+                "name": "Zustand oberer Backofen",
+                "state": {
+                    "cooking": "Kochen",
+                    "preheating": "Vorheizen",
+                    "standby": "Standby"
+                }
+            },
+            "oven_target_temperature": {
+                "name": "Solltemperatur"
+            },
+            "oven_target_temperature_lower": {
+                "name": "Solltemperatur unterer Backofen"
+            },
+            "oven_target_temperature_upper": {
+                "name": "Solltemperatur oberer Backofen"
+            },
+            "washer_state": {
+                "name": "Zustand",
+                "state": {
+                    "complete": "Fertig",
+                    "customer_focus_mode": "Kundenfokus-Modus",
+                    "cycle_filling": "Bef\u00fcllzyklus",
+                    "cycle_rinsing": "Sp\u00fclgang",
+                    "cycle_sensing": "Erkennungszyklus",
+                    "cycle_soaking": "Einweichzyklus",
+                    "cycle_spinning": "Schleudergang",
+                    "cycle_washing": "Waschgang",
+                    "delay_countdown": "Verz\u00f6gerungs-Countdown",
+                    "delay_paused": "Verz\u00f6gerung pausiert",
+                    "demo_mode": "Demo-Modus",
+                    "exception": "Ausnahme",
+                    "factory_diagnostic_mode": "Werksdiagnose-Modus",
+                    "hard_stop_or_error": "Harter Stopp oder Fehler",
+                    "life_test": "Lebensdauerpr\u00fcfung",
+                    "pause": "Pausiert",
+                    "power_failure": "Stromausfall",
+                    "running_maincycle": "Laufender Hauptzyklus",
+                    "running_postcycle": "Laufender Nachzyklus",
+                    "service_diagnostic_mode": "Wartungsdiagnose-Modus",
+                    "setting": "Einstellung",
+                    "smart_delay": "Smart Delay",
+                    "smart_grid_pause": "Smart Delay",
+                    "standby": "Standby",
+                    "system_initialize": "Systeminitialisierung"
+                }
+            },
+            "whirlpool_tank": {
+                "name": "Waschmittel-F\u00fcllstand",
+                "state": {
+                    "100": "100 %",
+                    "25": "25 %",
+                    "50": "50 %",
+                    "active": "Aktiv",
+                    "empty": "Leer",
+                    "unknown": "Unbekannt"
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "account_locked": {
+            "message": "Das Konto ist gesperrt. Bitte folge den Anweisungen in der App des Herstellers, um es zu entsperren"
+        },
+        "appliances_fetch_failed": {
+            "message": "Ger\u00e4te konnten nicht abgerufen werden"
+        },
+        "cannot_connect": {
+            "message": "Verbindung fehlgeschlagen"
+        },
+        "invalid_auth": {
+            "message": "Ung\u00fcltige Authentifizierung"
+        },
+        "invalid_value_set": {
+            "message": "Ung\u00fcltiger Wert angegeben"
+        },
+        "request_failed": {
+            "message": "Anfrage fehlgeschlagen"
+        }
+    },
+    "issues": {
+        "deprecated_oven_cook_mode": {
+            "description": "Der Sensor `{entity_id}` ({entity_name}) ist veraltet und wurde durch die Auswahl-Entit\u00e4t **Backofenmodus** ersetzt, mit der sich die Betriebsart des Backofens sowohl abfragen als auch \u00e4ndern l\u00e4sst.\n\nPasse alle Dashboards, Templates, Automationen oder Skripte an, damit sie die neue Auswahl-Entit\u00e4t verwenden, und deaktiviere anschlie\u00dfend `{entity_id}`, damit der Sensor entfernt wird.",
+            "title": "Der Whirlpool Backofenmodus-Sensor ist veraltet"
+        },
+        "deprecated_oven_cook_mode_scripts": {
+            "description": "Der Sensor `{entity_id}` ({entity_name}) ist veraltet und wurde durch die Auswahl-Entit\u00e4t **Backofenmodus** ersetzt, mit der sich die Betriebsart des Backofens sowohl abfragen als auch \u00e4ndern l\u00e4sst.\n\nEr wird weiterhin in den folgenden Automationen oder Skripten verwendet:\n{items}\n\nPasse diese an, sodass sie die neue Auswahl-Entit\u00e4t verwenden, und deaktiviere anschlie\u00dfend `{entity_id}`, damit der Sensor entfernt wird.",
+            "title": "Der Whirlpool Backofenmodus-Sensor ist veraltet"
+        },
+        "deprecated_oven_target_temperature": {
+            "description": "Der Sensor `{entity_id}` ({entity_name}) ist veraltet und wurde durch die Zahl-Entit\u00e4t **Solltemperatur** ersetzt, mit der sich die Solltemperatur des Backofens sowohl ablesen als auch \u00e4ndern l\u00e4sst.\n\nPasse alle Dashboards, Templates, Automationen oder Skripte an, damit sie die neue Zahl-Entit\u00e4t verwenden, und deaktiviere anschlie\u00dfend `{entity_id}`, damit der Sensor entfernt wird.",
+            "title": "Der Solltemperatur-Sensor f\u00fcr Whirlpool-Back\u00f6fen ist veraltet"
+        },
+        "deprecated_oven_target_temperature_scripts": {
+            "description": "Der Sensor `{entity_id}` ({entity_name}) ist veraltet und wurde durch die Zahl-Entit\u00e4t **Solltemperatur** ersetzt, mit der sich die Solltemperatur des Backofens sowohl ablesen als auch \u00e4ndern l\u00e4sst.\n\nEr wird weiterhin in den folgenden Automationen oder Skripten verwendet:\n{items}\n\nPasse diese an, sodass sie die neue Zahl-Entit\u00e4t verwenden, und deaktiviere anschlie\u00dfend `{entity_id}`, damit der Sensor entfernt wird.",
+            "title": "Der Solltemperatur-Sensor f\u00fcr Whirlpool-Back\u00f6fen ist veraltet"
+        }
+    }
+}

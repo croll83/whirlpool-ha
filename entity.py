@@ -1,8 +1,10 @@
 """Base entity for the Whirlpool integration."""
 
 import logging
+from typing import override
 
-from whirlpool.appliance import Appliance
+from .wp.appliance import Appliance
+from .wp.oven import Cavity as OvenCavity, Oven
 
 from homeassistant.core import callback
 from homeassistant.exceptions import HomeAssistantError
@@ -33,10 +35,13 @@ class WhirlpoolEntity(Entity):
         )
         self._attr_unique_id = f"{appliance.said}{unique_id_suffix}"
 
+    @override
     async def async_added_to_hass(self) -> None:
         """Register attribute updates callback."""
         self._appliance.register_attr_callback(self._async_attr_callback)
+        self._async_attr_callback()
 
+    @override
     async def async_will_remove_from_hass(self) -> None:
         """Unregister attribute updates callback."""
         self._appliance.unregister_attr_callback(self._async_attr_callback)
@@ -44,7 +49,7 @@ class WhirlpoolEntity(Entity):
     @callback
     def _async_attr_callback(self) -> None:
         _LOGGER.debug("Attribute update for entity %s", self.entity_id)
-        self._attr_available = self._appliance.get_online()
+        self._attr_available = self._appliance.get_online() or False
 
         if not self._attr_available:
             if not self._unavailable_logged:
@@ -64,3 +69,33 @@ class WhirlpoolEntity(Entity):
                 translation_domain=DOMAIN,
                 translation_key="request_failed",
             )
+
+
+class WhirlpoolOvenEntity(WhirlpoolEntity):
+    """Base class for Whirlpool oven entities."""
+
+    _appliance: Oven
+
+    @staticmethod
+    def cavity_suffix(oven: Oven, cavity: OvenCavity) -> str:
+        """Return the unique-id and translation-key suffix for an oven cavity."""
+        if oven.get_oven_cavity_exists(
+            OvenCavity.Upper
+        ) and oven.get_oven_cavity_exists(OvenCavity.Lower):
+            return "_upper" if cavity == OvenCavity.Upper else "_lower"
+        return ""
+
+    def __init__(
+        self,
+        appliance: Oven,
+        cavity: OvenCavity,
+        translation_key_base: str | None,
+        unique_id_suffix: str = "",
+    ) -> None:
+        """Initialize the entity."""
+        self.cavity = cavity
+        cavity_suffix = self.cavity_suffix(appliance, cavity)
+        super().__init__(
+            appliance, unique_id_suffix=f"{unique_id_suffix}{cavity_suffix}"
+        )
+        self._attr_translation_key = f"{translation_key_base}{cavity_suffix}"

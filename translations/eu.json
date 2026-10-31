@@ -1,0 +1,108 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Kontua dagoeneko konfiguratuta dago"
+        },
+        "error": {
+            "cannot_connect": "Konexioak huts egin du",
+            "invalid_auth": "Autentifikazio baliogabea",
+            "unknown": "Ustekabeko errorea"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "password": "Pasahitza",
+                    "region": "Eskualdea"
+                },
+                "title": "{name}-entzako autortza iraungi da"
+            },
+            "user": {
+                "data": {
+                    "password": "Pasahitza",
+                    "region": "Eskualdea",
+                    "username": "Erabiltzaile-izena"
+                }
+            }
+        }
+    },
+    "entity": {
+        "button": {
+            "oven_stop": {
+                "name": "Gelditu"
+            }
+        },
+        "number": {
+            "oven_target_temperature": {
+                "name": "Helburu-tenperatura"
+            }
+        },
+        "sensor": {
+            "dryer_state": {
+                "name": "Egoera",
+                "state": {
+                    "complete": "Osatuta",
+                    "exception": "Salbuespen",
+                    "pause": "Pausatuta",
+                    "setting": "Ezarpena"
+                }
+            },
+            "end_time": {
+                "name": "Amaiera ordua"
+            },
+            "oven_current_temperature": {
+                "name": "Uneko tenperatura"
+            },
+            "oven_state": {
+                "name": "Egoera"
+            },
+            "oven_target_temperature": {
+                "name": "Helburu-tenperatura"
+            },
+            "washer_state": {
+                "name": "Egoera",
+                "state": {
+                    "complete": "Osatuta",
+                    "exception": "Salbuespen",
+                    "pause": "Pausatuta",
+                    "setting": "Ezarpena"
+                }
+            },
+            "whirlpool_tank": {
+                "state": {
+                    "100": "%100",
+                    "25": "%25",
+                    "50": "%50",
+                    "active": "Aktiboa",
+                    "empty": "Hutsik",
+                    "unknown": "Ezezaguna"
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "cannot_connect": {
+            "message": "Konexioak huts egin du"
+        },
+        "invalid_auth": {
+            "message": "Autentifikazio baliogabea"
+        }
+    },
+    "issues": {
+        "deprecated_oven_cook_mode": {
+            "description": "{entity_name} (`{entity_id}`) sentsorea **Sukaldaritza modua** hautaketa entitatearekin ordezkatu delako zaharkituta dago; entite berriak labearen sukaldaritza modua irakurri eta ezar ditzake.\n\nZure aginte-panelak, txantiloiak, automatizazioak eta script-ak egunera itzazu zenbakizko entitate berria erabiltzeko, ondoren {entity_id} desgaitu ezazu, sistematik kendu dadin.",
+            "title": "Whirlpool labearen sukaldaritza modua sentsorea zaharkituta dago"
+        },
+        "deprecated_oven_cook_mode_scripts": {
+            "description": "{entity_name} (`{entity_id}`) sentsorea **Sukaldaritza modua** hautaketa entitatearekin ordezkatu delako zaharkituta dago; entite berriak labearen sukaldaritza modua irakurri eta ezar ditzake.\n\nOndorengo automatizazio eta script-etan erabiltzen da:\n{items}\n\nEgunera itzazu hautaketa entitate berria erabiltzeko, ondoren {entity_id} desgaitu ezazu, sistematik kendu dadin.",
+            "title": "Whirlpool labearen sukaldaritza modua sentsorea zaharkituta dago"
+        },
+        "deprecated_oven_target_temperature": {
+            "description": "{entity_name} (`{entity_id}`) sentsorea **Helburu tenperatura** zenbakizko entitatearekin ordezkatu delako zaharkituta dago; entite berriak labearen helburuko tenperatura irakurri eta ezar ditzake.\n\nZure aginte-panelak, txantiloiak, automatizazioak eta script-ak egunera itzazu zenbakizko entitate berria erabiltzeko, ondoren {entity_id} desgaitu ezazu, sistematik kendu dadin.",
+            "title": "Whirlpool labearen helburu tenperatura sentsorea zaharkituta dago"
+        },
+        "deprecated_oven_target_temperature_scripts": {
+            "description": "{entity_name} (`{entity_id}`) sentsorea **Helburu tenperatura** zenbakizko entitatearekin ordezkatu delako zaharkituta dago; entite berriak labearen helburuko tenperatura irakurri eta ezar ditzake.\n\nOndorengo automatizazio eta script-etan erabiltzen da:\n{items}\n\nEgunera itzazu zenbakizko entitate berria erabiltzeko, ondoren {entity_id} desgaitu ezazu, sistematik kendu dadin.",
+            "title": "Whirlpool labearen helburu tenperatura sentsorea zaharkituta dago"
+        }
+    }
+}

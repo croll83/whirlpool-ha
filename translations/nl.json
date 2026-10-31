@@ -1,0 +1,130 @@
+{
+    "common": {
+        "account_locked_error": "Het account is vergrendeld. Deblokkeer het volgens de instructies in de app van de fabrikant."
+    },
+    "config": {
+        "abort": {
+            "already_configured": "Account is al geconfigureerd"
+        },
+        "error": {
+            "account_locked": "Het account is vergrendeld. Deblokkeer het volgens de instructies in de app van de fabrikant.",
+            "cannot_connect": "Kan geen verbinding maken",
+            "invalid_auth": "Ongeldige authenticatie",
+            "unknown": "Onverwachte fout"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "brand": "Merk",
+                    "password": "Wachtwoord"
+                },
+                "title": "Authenticatie is verlopen voor {name}"
+            },
+            "user": {
+                "data": {
+                    "brand": "Merk",
+                    "password": "Wachtwoord",
+                    "username": "Gebruikersnaam"
+                }
+            }
+        }
+    },
+    "entity": {
+        "select": {
+            "oven_cook_mode": {
+                "state": {
+                    "keep_warm": "Warmhouden",
+                    "standby": "Stand-by"
+                }
+            },
+            "oven_cook_mode_lower": {
+                "state": {
+                    "keep_warm": "Warmhouden",
+                    "standby": "Stand-by"
+                }
+            },
+            "oven_cook_mode_upper": {
+                "state": {
+                    "keep_warm": "Warmhouden",
+                    "standby": "Stand-by"
+                }
+            }
+        },
+        "sensor": {
+            "dryer_state": {
+                "state": {
+                    "exception": "Uitzondering",
+                    "pause": "Gepauzeerd",
+                    "setting": "Instelling",
+                    "standby": "Stand-by"
+                }
+            },
+            "end_time": {
+                "name": "Eindtijd"
+            },
+            "oven_cook_mode": {
+                "state": {
+                    "standby": "Stand-by"
+                }
+            },
+            "oven_cook_mode_lower": {
+                "state": {
+                    "standby": "Stand-by"
+                }
+            },
+            "oven_cook_mode_upper": {
+                "state": {
+                    "standby": "Stand-by"
+                }
+            },
+            "oven_state": {
+                "state": {
+                    "preheating": "Voorverwarmen",
+                    "standby": "Stand-by"
+                }
+            },
+            "oven_state_lower": {
+                "state": {
+                    "preheating": "Voorverwarmen",
+                    "standby": "Stand-by"
+                }
+            },
+            "oven_state_upper": {
+                "state": {
+                    "preheating": "Voorverwarmen",
+                    "standby": "Stand-by"
+                }
+            },
+            "washer_state": {
+                "state": {
+                    "exception": "Uitzondering",
+                    "pause": "Gepauzeerd",
+                    "setting": "Instelling",
+                    "standby": "Stand-by"
+                }
+            },
+            "whirlpool_tank": {
+                "name": "Wasmiddelniveau",
+                "state": {
+                    "100": "100%",
+                    "25": "25%",
+                    "50": "50%",
+                    "active": "Actief",
+                    "empty": "Leeg",
+                    "unknown": "Onbekend"
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "account_locked": {
+            "message": "Het account is vergrendeld. Deblokkeer het volgens de instructies in de app van de fabrikant."
+        },
+        "cannot_connect": {
+            "message": "Kan geen verbinding maken"
+        },
+        "invalid_auth": {
+            "message": "Ongeldige authenticatie"
+        }
+    }
+}
